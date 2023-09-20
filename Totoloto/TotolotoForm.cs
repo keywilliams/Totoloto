@@ -15,6 +15,7 @@ namespace Totoloto
         private void Totoloto_Load(object sender, EventArgs e)
         {
             var context = totolotoContextFactory.CreateDbContext();
+            
         }
     }
 }
