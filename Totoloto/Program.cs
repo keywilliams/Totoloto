@@ -24,6 +24,8 @@ namespace Totoloto
             var host = CreateHostBuilder().Build();
             ServiceProvider = host.Services;
 
+            Application.ThreadException += new ThreadExceptionEventHandler(ThreadException);
+
             Application.Run(ServiceProvider.GetRequiredService<TotolotoForm>());
         }
 
@@ -36,6 +38,11 @@ namespace Totoloto
                     services.AddTransient<ITotolotoContextFactory, TotolotoContextFactory>();
                     services.AddTransient<TotolotoForm>();
                 });
+        }
+
+        static void ThreadException(object sender, ThreadExceptionEventArgs e)
+        {
+            MessageBox.Show(e.Exception.Message, "Unhandled Exception");
         }
     }
 }
