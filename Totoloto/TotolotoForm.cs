@@ -3,27 +3,34 @@ using TotolotoRepository;
 using HtmlAgilityPack;
 using System.Security.Policy;
 using TotolotoRepository.Models;
+using System.Xml.Linq;
 
 namespace Totoloto
 {
     public partial class TotolotoForm : Form
     {
         public ITotolotoContextFactory totolotoContextFactory;
+        public TotolotoContext totolotoContext;
         public TotolotoForm(ITotolotoContextFactory totolotoContextFactory)
         {
             this.totolotoContextFactory = totolotoContextFactory;
+            totolotoContext = totolotoContextFactory.CreateDbContext();
             InitializeComponent();
         }
 
         private void Totoloto_Load(object sender, EventArgs e)
         {
-            var context = totolotoContextFactory.CreateDbContext();
             bool update = false;
 
-            if (context.Jogos.Any())
+            if (totolotoContext.Jogos.Any())
             {
-                var lastJogo = context.Jogos.Last();
-                txtInformations.Text = "Teste";
+                var lastJogo = totolotoContext.Jogos.OrderBy(x => x.Data).Last();
+                txtInformations.Text = $"Último jogo carregado {lastJogo.Jogo}, Data: {lastJogo.Data.ToString("dd/MM/yyyy")}";
+
+                if ((DateTime.Now - lastJogo.Data).Days > 10)
+                {
+                    update = true;
+                }
             }
             else
             {
@@ -38,8 +45,24 @@ namespace Totoloto
 
         private void btnAtualizarJogos_Click(object sender, EventArgs e)
         {
+            //List<Jogos> jogos = GetJogosIniciais();
+            List<Jogos> jogos = new List<Jogos>();
+
+
+            totolotoContext.Jogos.AddRange(jogos);
+            totolotoContext.SaveChanges();
+
+            btnAtualizarJogos.Visible = false;
+            btnAtualizarJogos.Enabled = false;
+            txtInformations.Text = "Jogos atualizados";
+        }
+
+        private List<Jogos> GetJogosIniciais()
+        {
+            List<Jogos> jogos = new List<Jogos>();
             var baseUrl = ConfigurationManager.AppSettings.Get("BaseUrl");
             var pages = ConfigurationManager.AppSettings.Get("Pages")?.Split("|").ToList();
+
 
             foreach (var page in pages)
             {
@@ -82,28 +105,48 @@ namespace Totoloto
                                     {
                                         jogo.Jogo = int.Parse(spanNodes[0].InnerText);
 
-                                        jogo.Numero1 = int.Parse(spanNodes[1].InnerText);
-                                        jogo.Numero2 = int.Parse(spanNodes[2].InnerText);
-                                        jogo.Numero3 = int.Parse(spanNodes[3].InnerText);
-                                        jogo.Numero4 = int.Parse(spanNodes[4].InnerText);
-                                        jogo.Numero5 = int.Parse(spanNodes[5].InnerText);
-
-                                        jogo.NumeroSorte = int.Parse(spanNodes[6].InnerText);
-
-
                                         HtmlNode aNode = htmlLiNode.DocumentNode.SelectSingleNode("//a");
                                         if (aNode != null)
                                         {
                                             string data = aNode.InnerText.Split(" ")[1];
-                                            if (DateTime.TryParse(data, out DateTime result))
-                                            {
-                                                jogo.Data = result;
-                                            }
+
+                                            if (data.Length >= 10)
+                                                data = data.Substring(0, 10);
+                                            else if (data.Length == 9)
+                                                data = $"0{data}";
                                             else
-                                            {
                                                 throw new Exception(aNode.InnerText);
-                                            }
+
+
+                                            if (DateTime.TryParse(data, out DateTime result))
+                                                jogo.Data = result;
+                                            else
+                                                throw new Exception(aNode.InnerText);
                                         }
+
+                                        if (jogo.Jogo == 13 && jogo.Data == new DateTime(2017, 2, 15) && spanNodes[5].InnerText == "??")
+                                        {
+                                            jogo.Numero1 = int.Parse(spanNodes[1].InnerText);
+                                            jogo.Numero2 = int.Parse(spanNodes[2].InnerText);
+                                            jogo.Numero3 = 17;
+                                            jogo.Numero4 = int.Parse(spanNodes[3].InnerText); 
+                                            jogo.Numero5 = int.Parse(spanNodes[4].InnerText); 
+                                        }
+                                        else
+                                        {
+                                            jogo.Numero1 = int.Parse(spanNodes[1].InnerText);
+                                            jogo.Numero2 = int.Parse(spanNodes[2].InnerText);
+                                            jogo.Numero3 = int.Parse(spanNodes[3].InnerText);
+                                            jogo.Numero4 = int.Parse(spanNodes[4].InnerText);
+                                            jogo.Numero5 = int.Parse(spanNodes[5].InnerText);
+                                        }
+
+                                        jogo.NumeroSorte = int.Parse(spanNodes[6].InnerText);
+
+                                        if (jogo.Data == DateTime.MinValue)
+                                            throw new Exception(aNode.InnerText);
+
+                                        jogos.Add(jogo);
                                     }
                                 }
                                 catch (Exception exc)
@@ -117,9 +160,7 @@ namespace Totoloto
                 }
             }
 
-            btnAtualizarJogos.Visible = false;
-            btnAtualizarJogos.Enabled = false;
-            txtInformations.Text = "Jogos atualizados";
+            return jogos;
         }
     }
 }

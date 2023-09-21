@@ -2,3 +2,7 @@ bin/
 obj/
 .vs/
 Totoloto/.vs/Totoloto/v17/.suo
+Totoloto/.vs/Totoloto/v17/.suo
+Totoloto/.vs/Totoloto/v17/.futdcache.v2
+Totoloto/.vs/Totoloto/DesignTimeBuild/.dtbcache.v2
+*.bin
