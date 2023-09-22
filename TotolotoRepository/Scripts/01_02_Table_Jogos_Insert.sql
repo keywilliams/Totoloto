@@ -2580,5 +2580,41 @@ INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3],
 GO
 INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1289, 1, CAST(N'2015-01-03T00:00:00.000' AS DateTime), 22, 30, 31, 48, 49, 8)
 GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1290, 58, CAST(N'2023-07-22T00:00:00.000' AS DateTime), 11, 17, 24, 27, 37, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1291, 59, CAST(N'2023-07-26T00:00:00.000' AS DateTime), 15, 17, 27, 43, 46, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1292, 60, CAST(N'2023-07-29T00:00:00.000' AS DateTime), 2, 10, 16, 23, 24, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1293, 61, CAST(N'2023-08-02T00:00:00.000' AS DateTime), 13, 24, 40, 46, 49, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1294, 62, CAST(N'2023-08-05T00:00:00.000' AS DateTime), 5, 12, 13, 21, 22, 2)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1295, 63, CAST(N'2023-08-09T00:00:00.000' AS DateTime), 16, 20, 33, 45, 47, 11)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1296, 64, CAST(N'2023-08-12T00:00:00.000' AS DateTime), 1, 4, 9, 11, 33, 12)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1297, 65, CAST(N'2023-08-16T00:00:00.000' AS DateTime), 5, 12, 13, 16, 25, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1298, 66, CAST(N'2023-08-19T00:00:00.000' AS DateTime), 6, 23, 39, 43, 45, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1299, 67, CAST(N'2023-08-23T00:00:00.000' AS DateTime), 4, 12, 22, 25, 47, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1300, 68, CAST(N'2023-08-26T00:00:00.000' AS DateTime), 5, 7, 8, 13, 14, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1301, 69, CAST(N'2023-08-30T00:00:00.000' AS DateTime), 6, 14, 18, 24, 26, 13)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1302, 70, CAST(N'2023-09-02T00:00:00.000' AS DateTime), 2, 9, 23, 31, 44, 13)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1303, 71, CAST(N'2023-09-06T00:00:00.000' AS DateTime), 8, 15, 24, 35, 47, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1304, 72, CAST(N'2023-09-09T00:00:00.000' AS DateTime), 7, 32, 45, 47, 49, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1305, 73, CAST(N'2023-09-13T00:00:00.000' AS DateTime), 6, 21, 22, 23, 40, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1306, 74, CAST(N'2023-09-16T00:00:00.000' AS DateTime), 10, 19, 26, 35, 42, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1307, 75, CAST(N'2023-09-20T00:00:00.000' AS DateTime), 16, 20, 33, 38, 47, 2)
+GO
 SET IDENTITY_INSERT [dbo].[Jogos] OFF
 GO

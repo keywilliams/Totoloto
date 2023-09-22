@@ -10,5 +10,6 @@ namespace TotolotoRepository
     public interface ITotolotoContextFactory
     {
         TotolotoContext CreateDbContext();
+        void GenerateScripts();
     }
 }

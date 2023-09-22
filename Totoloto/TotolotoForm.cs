@@ -24,13 +24,15 @@ namespace Totoloto
 
             if (totolotoContext.Jogos.Any())
             {
-                var lastJogo = totolotoContext.Jogos.OrderBy(x => x.Data).Last();
-                txtInformations.Text = $"Último jogo carregado {lastJogo.Jogo}, Data: {lastJogo.Data.ToString("dd/MM/yyyy")}";
+                var lastGame = totolotoContext.Jogos.OrderBy(x => x.Data).Last();
+                txtInformations.Text = $"Último jogo carregado {lastGame.Jogo}, Data: {lastGame.Data.ToString("dd/MM/yyyy")}";
 
-                if ((DateTime.Now - lastJogo.Data).Days > 10)
-                {
-                    update = true;
-                }
+                if (lastGame.Data.DayOfWeek == DayOfWeek.Wednesday)
+                    if(lastGame.Data.AddDays(3) < DateTime.Now)
+                        update = true;
+                else if (lastGame.Data.DayOfWeek == DayOfWeek.Saturday)
+                    if (lastGame.Data.AddDays(4) < DateTime.Now)
+                        update = true;
             }
             else
             {
@@ -45,16 +47,105 @@ namespace Totoloto
 
         private void btnAtualizarJogos_Click(object sender, EventArgs e)
         {
-            //List<Jogos> jogos = GetJogosIniciais();
-            List<Jogos> jogos = new List<Jogos>();
+            List<Jogos> jogos = GetGamesByDate();
 
 
             totolotoContext.Jogos.AddRange(jogos);
             totolotoContext.SaveChanges();
 
+
+            totolotoContextFactory.GenerateScripts();
+
             btnAtualizarJogos.Visible = false;
             btnAtualizarJogos.Enabled = false;
             txtInformations.Text = "Jogos atualizados";
+
+            var lastGame = totolotoContext.Jogos.OrderBy(x => x.Data).Last();
+            txtInformations.Text = $"Último jogo carregado {lastGame.Jogo}, Data: {lastGame.Data.ToString("dd/MM/yyyy")}";
+        }
+
+        private List<Jogos> GetGamesByDate()
+        {
+            List<Jogos> jogos = new List<Jogos>();
+            var baseUrl = ConfigurationManager.AppSettings.Get("UrlByDate");
+
+            List<DateTime> dates = GetGameDates();
+
+            foreach (var date in dates.OrderBy(x => x))
+            {
+                using (var client = new HttpClient())
+                {
+                    var response = client.GetAsync($"{baseUrl}{date.ToString("yyyy-MM-dd")}").ConfigureAwait(false).GetAwaiter().GetResult();
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var html = response.Content.ReadAsStringAsync().ConfigureAwait(false).GetAwaiter().GetResult();
+
+                        var htmlDoc = new HtmlAgilityPack.HtmlDocument();
+                        htmlDoc.LoadHtml(html);
+
+
+                        var spanNodes = htmlDoc.DocumentNode.Descendants(0).Where(x => x.HasClass("label") && x.HasClass("label-estr"))?.ToArray();
+
+                        if (spanNodes != null && spanNodes.Count() >= 6)
+                        {
+                            try
+                            {
+                                Jogos jogo = new Jogos();
+
+                                var h3Nodes = htmlDoc.DocumentNode.Descendants(0).Where(x => x.HasClass("subjuego"))?.ToList().FirstOrDefault();
+
+                                if (h3Nodes != null)
+                                {
+                                    string numeroJogo = h3Nodes.InnerText.Replace("Resultado", "").Replace("concurso", "").Replace("Totoloto", "").Replace("Premiação", "").Replace("Ganhadores", "").Replace("-", "").Trim();
+                                    jogo.Jogo = int.Parse(numeroJogo);
+                                }
+                                else
+                                {
+                                    throw new Exception(htmlDoc.DocumentNode.InnerHtml);
+                                }
+
+                                jogo.Data = date;
+                                jogo.Numero1 = int.Parse(spanNodes[0].InnerText);
+                                jogo.Numero2 = int.Parse(spanNodes[1].InnerText);
+                                jogo.Numero3 = int.Parse(spanNodes[2].InnerText);
+                                jogo.Numero4 = int.Parse(spanNodes[3].InnerText);
+                                jogo.Numero5 = int.Parse(spanNodes[4].InnerText);
+                                jogo.NumeroSorte = int.Parse(spanNodes[5].InnerText);
+
+                                jogos.Add(jogo);
+                            }
+                            catch (Exception exc)
+                            {
+                                throw new Exception(htmlDoc.DocumentNode.InnerHtml, exc);
+                            }
+                        }
+                        else
+                            throw new Exception(htmlDoc.DocumentNode.InnerHtml);
+                    }
+                }
+            }
+
+            return jogos;
+        }
+
+        private List<DateTime> GetGameDates()
+        {
+            var result = new List<DateTime>();
+            DateTime lastGameDate = totolotoContext.Jogos.OrderBy(x => x.Data).Last().Data;
+
+            while (lastGameDate < DateTime.Now)
+            {
+                if (lastGameDate.DayOfWeek == DayOfWeek.Wednesday)
+                    lastGameDate = lastGameDate.AddDays(3);
+                else if (lastGameDate.DayOfWeek == DayOfWeek.Saturday)
+                    lastGameDate = lastGameDate.AddDays(4);
+                
+                if (lastGameDate < DateTime.Now)
+                    result.Add(lastGameDate);
+            }
+
+            return result;
         }
 
         private List<Jogos> GetJogosIniciais()
@@ -129,8 +220,8 @@ namespace Totoloto
                                             jogo.Numero1 = int.Parse(spanNodes[1].InnerText);
                                             jogo.Numero2 = int.Parse(spanNodes[2].InnerText);
                                             jogo.Numero3 = 17;
-                                            jogo.Numero4 = int.Parse(spanNodes[3].InnerText); 
-                                            jogo.Numero5 = int.Parse(spanNodes[4].InnerText); 
+                                            jogo.Numero4 = int.Parse(spanNodes[3].InnerText);
+                                            jogo.Numero5 = int.Parse(spanNodes[4].InnerText);
                                         }
                                         else
                                         {
