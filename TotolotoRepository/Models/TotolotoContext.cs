@@ -15,6 +15,12 @@ public partial class TotolotoContext : DbContext
 
     public virtual DbSet<Coluna> Colunas { get; set; }
 
+    public virtual DbSet<EstatisticasNumerosDaSorte> EstatisticasNumerosDaSortes { get; set; }
+
+    public virtual DbSet<EstatisticasNumerosDoSorteio> EstatisticasNumerosDoSorteios { get; set; }
+
+    public virtual DbSet<EstatisticasNumerosUltimaDatum> EstatisticasNumerosUltimaData { get; set; }
+
     public virtual DbSet<Jogo> Jogos { get; set; }
 
     public virtual DbSet<Linha> Linhas { get; set; }
@@ -27,12 +33,53 @@ public partial class TotolotoContext : DbContext
     {
         modelBuilder.Entity<Coluna>(entity =>
         {
-            entity.HasKey(e => new { e.NumeroColuna, e.Numero });
+            entity.HasKey(e => e.Numero).HasName("PK_Colunas_1");
 
-            entity.HasOne(d => d.NumeroNavigation).WithMany(p => p.Colunas)
-                .HasForeignKey(d => d.Numero)
+            entity.Property(e => e.Numero).ValueGeneratedNever();
+
+            entity.HasOne(d => d.NumeroNavigation).WithOne(p => p.ColunaNavigation)
+                .HasForeignKey<Coluna>(d => d.Numero)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Colunas_Colunas");
+        });
+
+        modelBuilder.Entity<EstatisticasNumerosDaSorte>(entity =>
+        {
+            entity.HasKey(e => e.Numero);
+
+            entity.ToTable("EstatisticasNumerosDaSorte");
+
+            entity.Property(e => e.Numero).ValueGeneratedNever();
+
+            entity.HasOne(d => d.NumeroNavigation).WithOne(p => p.EstatisticasNumerosDaSorte)
+                .HasForeignKey<EstatisticasNumerosDaSorte>(d => d.Numero)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_EstatisticasNumerosDaSorte_NumerosDaSorte");
+        });
+
+        modelBuilder.Entity<EstatisticasNumerosDoSorteio>(entity =>
+        {
+            entity.HasKey(e => e.Numero);
+
+            entity.ToTable("EstatisticasNumerosDoSorteio");
+
+            entity.Property(e => e.Numero).ValueGeneratedNever();
+
+            entity.HasOne(d => d.NumeroNavigation).WithOne(p => p.EstatisticasNumerosDoSorteio)
+                .HasForeignKey<EstatisticasNumerosDoSorteio>(d => d.Numero)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_EstatisticasNumerosDoSorteio_NumerosDoSorteio");
+        });
+
+        modelBuilder.Entity<EstatisticasNumerosUltimaDatum>(entity =>
+        {
+            entity.HasNoKey();
+
+            entity.Property(e => e.Data).HasColumnType("datetime");
+            entity.Property(e => e.Tabela)
+                .IsRequired()
+                .HasMaxLength(50)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Jogo>(entity =>
@@ -74,10 +121,12 @@ public partial class TotolotoContext : DbContext
 
         modelBuilder.Entity<Linha>(entity =>
         {
-            entity.HasKey(e => new { e.NumeroLinha, e.Numero });
+            entity.HasKey(e => e.Numero).HasName("PK_Linhas_1");
 
-            entity.HasOne(d => d.NumeroNavigation).WithMany(p => p.Linhas)
-                .HasForeignKey(d => d.Numero)
+            entity.Property(e => e.Numero).ValueGeneratedNever();
+
+            entity.HasOne(d => d.NumeroNavigation).WithOne(p => p.LinhaNavigation)
+                .HasForeignKey<Linha>(d => d.Numero)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Linhas_Numeros");
         });

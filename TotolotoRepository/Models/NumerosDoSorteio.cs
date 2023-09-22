@@ -21,7 +21,13 @@ public partial class NumerosDoSorteio
 
     public bool DiagonalEsquerda { get; set; }
 
-    public virtual ICollection<Coluna> Colunas { get; set; } = new List<Coluna>();
+    public int Linha { get; set; }
+
+    public int Coluna { get; set; }
+
+    public virtual Coluna ColunaNavigation { get; set; }
+
+    public virtual EstatisticasNumerosDoSorteio EstatisticasNumerosDoSorteio { get; set; }
 
     public virtual ICollection<Jogo> JogoNumero1Navigations { get; set; } = new List<Jogo>();
 
@@ -33,5 +39,5 @@ public partial class NumerosDoSorteio
 
     public virtual ICollection<Jogo> JogoNumero5Navigations { get; set; } = new List<Jogo>();
 
-    public virtual ICollection<Linha> Linhas { get; set; } = new List<Linha>();
+    public virtual Linha LinhaNavigation { get; set; }
 }

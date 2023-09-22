@@ -13,5 +13,7 @@ public partial class NumerosDaSorte
 
     public bool Impar { get; set; }
 
+    public virtual EstatisticasNumerosDaSorte EstatisticasNumerosDaSorte { get; set; }
+
     public virtual ICollection<Jogo> Jogos { get; set; } = new List<Jogo>();
 }

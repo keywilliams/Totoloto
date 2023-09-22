@@ -5,11 +5,9 @@ using System.Collections.Generic;
 
 namespace TotolotoRepository.Models;
 
-public partial class Linha
+public partial class EstatisticasNumerosUltimaDatum
 {
-    public int Numero { get; set; }
+    public DateTime Data { get; set; }
 
-    public int NumeroLinha { get; set; }
-
-    public virtual NumerosDoSorteio NumeroNavigation { get; set; }
+    public string Tabela { get; set; }
 }

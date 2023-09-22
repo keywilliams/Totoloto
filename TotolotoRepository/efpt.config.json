@@ -20,6 +20,18 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[EstatisticasNumerosDaSorte]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstatisticasNumerosDoSorteio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstatisticasNumerosUltimaData]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[Jogos]",
          "ObjectType": 0
       },
@@ -39,7 +51,7 @@
    "UiHint": "SQLEXPRESS",
    "UncountableWords": null,
    "UseBoolPropertiesWithoutDefaultSql": false,
-   "UseDatabaseNames": true,
+   "UseDatabaseNames": false,
    "UseDateOnlyTimeOnly": false,
    "UseDbContextSplitting": false,
    "UseFluentApiOnly": true,

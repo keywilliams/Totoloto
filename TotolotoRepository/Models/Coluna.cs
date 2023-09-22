@@ -7,9 +7,9 @@ namespace TotolotoRepository.Models;
 
 public partial class Coluna
 {
-    public int NumeroColuna { get; set; }
-
     public int Numero { get; set; }
+
+    public int NumeroColuna { get; set; }
 
     public virtual NumerosDoSorteio NumeroNavigation { get; set; }
 }
