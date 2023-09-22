@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 namespace TotolotoRepository.Models;
 
-public partial class Linhas
+public partial class Linha
 {
-    public int Linha { get; set; }
+    public int NumeroLinha { get; set; }
 
     public int Numero { get; set; }
 
-    public virtual Numeros NumeroNavigation { get; set; }
+    public virtual NumerosDoSorteio NumeroNavigation { get; set; }
 }

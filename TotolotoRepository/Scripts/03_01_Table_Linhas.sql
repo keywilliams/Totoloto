@@ -1,7 +1,7 @@
 USE [Totoloto]
 GO
 
-/****** Object:  Table [dbo].[Linhas]    Script Date: 22/09/2023 17:32:34 ******/
+/****** Object:  Table [dbo].[Linhas]    Script Date: 22/09/2023 18:39:19 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -9,18 +9,18 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[Linhas](
-	[Linha] [int] NOT NULL,
+	[NumeroLinha] [int] NOT NULL,
 	[Numero] [int] NOT NULL,
  CONSTRAINT [PK_Linhas] PRIMARY KEY CLUSTERED 
 (
-	[Linha] ASC,
+	[NumeroLinha] ASC,
 	[Numero] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
 
 ALTER TABLE [dbo].[Linhas]  WITH CHECK ADD  CONSTRAINT [FK_Linhas_Numeros] FOREIGN KEY([Numero])
-REFERENCES [dbo].[Numeros] ([Numero])
+REFERENCES [dbo].[NumerosDoSorteio] ([Numero])
 GO
 
 ALTER TABLE [dbo].[Linhas] CHECK CONSTRAINT [FK_Linhas_Numeros]

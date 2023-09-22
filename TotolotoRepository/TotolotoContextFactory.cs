@@ -48,7 +48,7 @@ namespace TotolotoRepository
                 outputFile.WriteLine($"GO");
                 foreach (var jogo in jogos)
                 {
-                    outputFile.WriteLine($"INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES ({jogo.IdJogo}, {jogo.Jogo}, CAST(N'{jogo.Data.ToString("yyyy-MM-ddTHH:mm:ss.fff")}' AS DateTime), {jogo.Numero1}, {jogo.Numero2}, {jogo.Numero3}, {jogo.Numero4}, {jogo.Numero5}, {jogo.NumeroSorte})");
+                    outputFile.WriteLine($"INSERT [dbo].[Jogos] ([IdJogo], [Jogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES ({jogo.IdJogo}, {jogo.NumeroJogo}, CAST(N'{jogo.Data.ToString("yyyy-MM-ddTHH:mm:ss.fff")}' AS DateTime), {jogo.Numero1}, {jogo.Numero2}, {jogo.Numero3}, {jogo.Numero4}, {jogo.Numero5}, {jogo.NumeroSorte})");
                     outputFile.WriteLine($"GO");
                 }
                 outputFile.WriteLine($"SET IDENTITY_INSERT [dbo].[Jogos] OFF");

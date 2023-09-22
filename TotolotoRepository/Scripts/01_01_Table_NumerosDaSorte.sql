@@ -1,22 +1,18 @@
 USE [Totoloto]
 GO
 
-/****** Object:  Table [dbo].[Numeros]    Script Date: 22/09/2023 18:16:15 ******/
+/****** Object:  Table [dbo].[NumerosDaSorte]    Script Date: 22/09/2023 18:38:39 ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TABLE [dbo].[Numeros](
+CREATE TABLE [dbo].[NumerosDaSorte](
 	[Numero] [int] NOT NULL,
 	[Par] [bit] NOT NULL,
 	[Impar] [bit] NOT NULL,
-	[Borda] [bit] NOT NULL,
-	[Miolo] [bit] NOT NULL,
-	[DiagonalDireita] [bit] NOT NULL,
-	[DiagonalEsquerda] [bit] NOT NULL,
- CONSTRAINT [PK_Numeros] PRIMARY KEY CLUSTERED 
+ CONSTRAINT [PK_NumerosDaSorte] PRIMARY KEY CLUSTERED 
 (
 	[Numero] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]

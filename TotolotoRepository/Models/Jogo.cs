@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 namespace TotolotoRepository.Models;
 
-public partial class Jogos
+public partial class Jogo
 {
     public int IdJogo { get; set; }
 
-    public int Jogo { get; set; }
+    public int NumeroJogo { get; set; }
 
     public DateTime Data { get; set; }
 
@@ -25,13 +25,15 @@ public partial class Jogos
 
     public int NumeroSorte { get; set; }
 
-    public virtual Numeros Numero1Navigation { get; set; }
+    public virtual NumerosDoSorteio Numero1Navigation { get; set; }
 
-    public virtual Numeros Numero2Navigation { get; set; }
+    public virtual NumerosDoSorteio Numero2Navigation { get; set; }
 
-    public virtual Numeros Numero3Navigation { get; set; }
+    public virtual NumerosDoSorteio Numero3Navigation { get; set; }
 
-    public virtual Numeros Numero4Navigation { get; set; }
+    public virtual NumerosDoSorteio Numero4Navigation { get; set; }
 
-    public virtual Numeros Numero5Navigation { get; set; }
+    public virtual NumerosDoSorteio Numero5Navigation { get; set; }
+
+    public virtual NumerosDaSorte NumeroSorteNavigation { get; set; }
 }

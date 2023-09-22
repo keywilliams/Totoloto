@@ -25,7 +25,7 @@ namespace Totoloto
             if (totolotoContext.Jogos.Any())
             {
                 var lastGame = totolotoContext.Jogos.OrderBy(x => x.Data).Last();
-                txtInformations.Text = $"Último jogo carregado {lastGame.Jogo}, Data: {lastGame.Data.ToString("dd/MM/yyyy")}";
+                txtInformations.Text = $"Último jogo carregado {lastGame.NumeroJogo} de {lastGame.Data.Year}, Data: {lastGame.Data.ToString("dd/MM/yyyy")}";
 
                 if (lastGame.Data.DayOfWeek == DayOfWeek.Wednesday)
                     if (lastGame.Data.AddDays(3) < DateTime.Now)
@@ -47,7 +47,7 @@ namespace Totoloto
 
         private void btnAtualizarJogos_Click(object sender, EventArgs e)
         {
-            List<Jogos> jogos = GetGamesByDate();
+            List<Jogo> jogos = GetGamesByDate();
 
 
             totolotoContext.Jogos.AddRange(jogos);
@@ -61,12 +61,12 @@ namespace Totoloto
             txtInformations.Text = "Jogos atualizados";
 
             var lastGame = totolotoContext.Jogos.OrderBy(x => x.Data).Last();
-            txtInformations.Text = $"Último jogo carregado {lastGame.Jogo}, Data: {lastGame.Data.ToString("dd/MM/yyyy")}";
+            txtInformations.Text = $"Último jogo carregado {lastGame.NumeroJogo}, Data: {lastGame.Data.ToString("dd/MM/yyyy")}";
         }
 
-        private List<Jogos> GetGamesByDate()
+        private List<Jogo> GetGamesByDate()
         {
-            List<Jogos> jogos = new List<Jogos>();
+            List<Jogo> jogos = new List<Jogo>();
             var baseUrl = ConfigurationManager.AppSettings.Get("UrlByDate");
 
             List<DateTime> dates = GetGameDates();
@@ -91,14 +91,14 @@ namespace Totoloto
                         {
                             try
                             {
-                                Jogos jogo = new Jogos();
+                                Jogo jogo = new Jogo();
 
                                 var h3Nodes = htmlDoc.DocumentNode.Descendants(0).Where(x => x.HasClass("subjuego"))?.ToList().FirstOrDefault();
 
                                 if (h3Nodes != null)
                                 {
                                     string numeroJogo = h3Nodes.InnerText.Replace("Resultado", "").Replace("concurso", "").Replace("Totoloto", "").Replace("Premiação", "").Replace("Ganhadores", "").Replace("-", "").Trim();
-                                    jogo.Jogo = int.Parse(numeroJogo);
+                                    jogo.NumeroJogo = int.Parse(numeroJogo);
                                 }
                                 else
                                 {
@@ -148,9 +148,9 @@ namespace Totoloto
             return result;
         }
 
-        private List<Jogos> GetJogosIniciais()
+        private List<Jogo> GetJogosIniciais()
         {
-            List<Jogos> jogos = new List<Jogos>();
+            List<Jogo> jogos = new List<Jogo>();
             var baseUrl = ConfigurationManager.AppSettings.Get("BaseUrl");
             var pages = ConfigurationManager.AppSettings.Get("Pages")?.Split("|").ToList();
 
@@ -185,7 +185,7 @@ namespace Totoloto
                         {
                             foreach (var liNode in liNodes)
                             {
-                                Jogos jogo = new Jogos();
+                                Jogo jogo = new Jogo();
                                 var htmlLiNode = new HtmlAgilityPack.HtmlDocument();
                                 htmlLiNode.LoadHtml(liNode.InnerHtml);
                                 HtmlNodeCollection spanNodes = htmlLiNode.DocumentNode.SelectNodes("//span");
@@ -194,7 +194,7 @@ namespace Totoloto
                                 {
                                     if (spanNodes != null && spanNodes.Count == 7)
                                     {
-                                        jogo.Jogo = int.Parse(spanNodes[0].InnerText);
+                                        jogo.NumeroJogo = int.Parse(spanNodes[0].InnerText);
 
                                         HtmlNode aNode = htmlLiNode.DocumentNode.SelectSingleNode("//a");
                                         if (aNode != null)
@@ -215,7 +215,7 @@ namespace Totoloto
                                                 throw new Exception(aNode.InnerText);
                                         }
 
-                                        if (jogo.Jogo == 13 && jogo.Data == new DateTime(2017, 2, 15) && spanNodes[5].InnerText == "??")
+                                        if (jogo.NumeroJogo == 13 && jogo.Data == new DateTime(2017, 2, 15) && spanNodes[5].InnerText == "??")
                                         {
                                             jogo.Numero1 = int.Parse(spanNodes[1].InnerText);
                                             jogo.Numero2 = int.Parse(spanNodes[2].InnerText);

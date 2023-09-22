@@ -5,11 +5,13 @@ using System.Collections.Generic;
 
 namespace TotolotoRepository.Models;
 
-public partial class Colunas
+public partial class NumerosDaSorte
 {
-    public int Coluna { get; set; }
-
     public int Numero { get; set; }
 
-    public virtual Numeros NumeroNavigation { get; set; }
+    public bool Par { get; set; }
+
+    public bool Impar { get; set; }
+
+    public virtual ICollection<Jogo> Jogos { get; set; } = new List<Jogo>();
 }

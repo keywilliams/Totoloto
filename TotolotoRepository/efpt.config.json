@@ -28,7 +28,11 @@
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Numeros]",
+         "Name": "[dbo].[NumerosDaSorte]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NumerosDoSorteio]",
          "ObjectType": 0
       }
    ],
@@ -41,7 +45,7 @@
    "UseFluentApiOnly": true,
    "UseHandleBars": false,
    "UseHierarchyId": false,
-   "UseInflector": false,
+   "UseInflector": true,
    "UseLegacyPluralizer": false,
    "UseManyToManyEntity": false,
    "UseNoDefaultConstructor": false,
