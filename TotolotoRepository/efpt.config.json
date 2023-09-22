@@ -16,7 +16,19 @@
    "T4TemplatePath": null,
    "Tables": [
       {
+         "Name": "[dbo].[Colunas]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[Jogos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Linhas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Numeros]",
          "ObjectType": 0
       }
    ],

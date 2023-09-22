@@ -28,11 +28,11 @@ namespace Totoloto
                 txtInformations.Text = $"Último jogo carregado {lastGame.Jogo}, Data: {lastGame.Data.ToString("dd/MM/yyyy")}";
 
                 if (lastGame.Data.DayOfWeek == DayOfWeek.Wednesday)
-                    if(lastGame.Data.AddDays(3) < DateTime.Now)
+                    if (lastGame.Data.AddDays(3) < DateTime.Now)
                         update = true;
-                else if (lastGame.Data.DayOfWeek == DayOfWeek.Saturday)
-                    if (lastGame.Data.AddDays(4) < DateTime.Now)
-                        update = true;
+                    else if (lastGame.Data.DayOfWeek == DayOfWeek.Saturday)
+                        if (lastGame.Data.AddDays(4) < DateTime.Now)
+                            update = true;
             }
             else
             {
@@ -140,7 +140,7 @@ namespace Totoloto
                     lastGameDate = lastGameDate.AddDays(3);
                 else if (lastGameDate.DayOfWeek == DayOfWeek.Saturday)
                     lastGameDate = lastGameDate.AddDays(4);
-                
+
                 if (lastGameDate < DateTime.Now)
                     result.Add(lastGameDate);
             }
@@ -252,6 +252,11 @@ namespace Totoloto
             }
 
             return jogos;
+        }
+
+        private void btnGerarJogo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

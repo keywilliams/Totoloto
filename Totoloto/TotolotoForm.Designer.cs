@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TotolotoForm));
             txtInformations = new TextBox();
             btnAtualizarJogos = new Button();
+            btnGerarJogo = new Button();
             SuspendLayout();
             // 
             // txtInformations
@@ -59,6 +60,16 @@
             btnAtualizarJogos.Visible = false;
             btnAtualizarJogos.Click += btnAtualizarJogos_Click;
             // 
+            // btnGerarJogo
+            // 
+            btnGerarJogo.Location = new Point(12, 12);
+            btnGerarJogo.Name = "btnGerarJogo";
+            btnGerarJogo.Size = new Size(125, 64);
+            btnGerarJogo.TabIndex = 51;
+            btnGerarJogo.Text = "Gerar Jogo";
+            btnGerarJogo.UseVisualStyleBackColor = true;
+            btnGerarJogo.Click += btnGerarJogo_Click;
+            // 
             // TotolotoForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -66,8 +77,9 @@
             BackgroundImage = Properties.Resources.Totoloto;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(853, 541);
-            Controls.Add(btnAtualizarJogos);
+            Controls.Add(btnGerarJogo);
             Controls.Add(txtInformations);
+            Controls.Add(btnAtualizarJogos);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "TotolotoForm";
@@ -82,5 +94,6 @@
 
         private TextBox txtInformations;
         private Button btnAtualizarJogos;
+        private Button btnGerarJogo;
     }
 }

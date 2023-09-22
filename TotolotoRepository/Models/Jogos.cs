@@ -24,4 +24,14 @@ public partial class Jogos
     public int Numero5 { get; set; }
 
     public int NumeroSorte { get; set; }
+
+    public virtual Numeros Numero1Navigation { get; set; }
+
+    public virtual Numeros Numero2Navigation { get; set; }
+
+    public virtual Numeros Numero3Navigation { get; set; }
+
+    public virtual Numeros Numero4Navigation { get; set; }
+
+    public virtual Numeros Numero5Navigation { get; set; }
 }
