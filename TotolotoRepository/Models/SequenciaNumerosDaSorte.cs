@@ -5,19 +5,15 @@ using System.Collections.Generic;
 
 namespace TotolotoRepository.Models;
 
-public partial class EstatisticasNumerosDaSorte
+public partial class SequenciaNumerosDaSorte
 {
     public int Numero { get; set; }
 
-    public int Sorteado { get; set; }
+    public int NumeroAnterior { get; set; }
 
-    public int AtrasoMaximo { get; set; }
+    public int Quantidade { get; set; }
 
-    public int AtrasoAtual { get; set; }
-
-    public int MaiorSequencia { get; set; }
-
-    public int SequenciaAtual { get; set; }
+    public virtual NumerosDaSorte NumeroAnteriorNavigation { get; set; }
 
     public virtual NumerosDaSorte NumeroNavigation { get; set; }
 }

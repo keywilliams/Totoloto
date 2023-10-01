@@ -29,6 +29,10 @@ public partial class TotolotoContext : DbContext
 
     public virtual DbSet<NumerosDoSorteio> NumerosDoSorteios { get; set; }
 
+    public virtual DbSet<SequenciaNumerosDaSorte> SequenciaNumerosDaSortes { get; set; }
+
+    public virtual DbSet<SequenciaNumerosDoSorteio> SequenciaNumerosDoSorteios { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Coluna>(entity =>
@@ -73,13 +77,12 @@ public partial class TotolotoContext : DbContext
 
         modelBuilder.Entity<EstatisticasNumerosUltimaDatum>(entity =>
         {
-            entity.HasNoKey();
+            entity.HasKey(e => e.Tabela).HasName("PK_EstatisticasNumerosUltimaData_1");
 
-            entity.Property(e => e.Data).HasColumnType("datetime");
             entity.Property(e => e.Tabela)
-                .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);
+            entity.Property(e => e.Data).HasColumnType("datetime");
         });
 
         modelBuilder.Entity<Jogo>(entity =>
@@ -147,6 +150,40 @@ public partial class TotolotoContext : DbContext
             entity.ToTable("NumerosDoSorteio");
 
             entity.Property(e => e.Numero).ValueGeneratedNever();
+        });
+
+        modelBuilder.Entity<SequenciaNumerosDaSorte>(entity =>
+        {
+            entity.HasKey(e => new { e.Numero, e.NumeroAnterior });
+
+            entity.ToTable("SequenciaNumerosDaSorte");
+
+            entity.HasOne(d => d.NumeroNavigation).WithMany(p => p.SequenciaNumerosDaSorteNumeroNavigations)
+                .HasForeignKey(d => d.Numero)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SequenciaNumerosDaSorte_NumerosDaSorte");
+
+            entity.HasOne(d => d.NumeroAnteriorNavigation).WithMany(p => p.SequenciaNumerosDaSorteNumeroAnteriorNavigations)
+                .HasForeignKey(d => d.NumeroAnterior)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SequenciaNumerosDaSorte_NumerosDaSorte1");
+        });
+
+        modelBuilder.Entity<SequenciaNumerosDoSorteio>(entity =>
+        {
+            entity.HasKey(e => new { e.Numero, e.NumeroAnterior });
+
+            entity.ToTable("SequenciaNumerosDoSorteio");
+
+            entity.HasOne(d => d.NumeroNavigation).WithMany(p => p.SequenciaNumerosDoSorteioNumeroNavigations)
+                .HasForeignKey(d => d.Numero)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SequenciaNumerosDoSorteio_NumerosDoSorteio");
+
+            entity.HasOne(d => d.NumeroAnteriorNavigation).WithMany(p => p.SequenciaNumerosDoSorteioNumeroAnteriorNavigations)
+                .HasForeignKey(d => d.NumeroAnterior)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SequenciaNumerosDoSorteio_NumerosDoSorteio1");
         });
 
         OnModelCreatingGeneratedProcedures(modelBuilder);

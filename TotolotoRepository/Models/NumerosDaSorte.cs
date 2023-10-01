@@ -16,4 +16,8 @@ public partial class NumerosDaSorte
     public virtual EstatisticasNumerosDaSorte EstatisticasNumerosDaSorte { get; set; }
 
     public virtual ICollection<Jogo> Jogos { get; set; } = new List<Jogo>();
+
+    public virtual ICollection<SequenciaNumerosDaSorte> SequenciaNumerosDaSorteNumeroAnteriorNavigations { get; set; } = new List<SequenciaNumerosDaSorte>();
+
+    public virtual ICollection<SequenciaNumerosDaSorte> SequenciaNumerosDaSorteNumeroNavigations { get; set; } = new List<SequenciaNumerosDaSorte>();
 }

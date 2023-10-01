@@ -4,6 +4,8 @@ using HtmlAgilityPack;
 using System.Security.Policy;
 using TotolotoRepository.Models;
 using System.Xml.Linq;
+using Totoloto.Properties;
+using System.Drawing;
 
 namespace Totoloto
 {
@@ -20,7 +22,7 @@ namespace Totoloto
 
         private void Totoloto_Load(object sender, EventArgs e)
         {
-            bool update = false;
+            bool enableUpdate = false;
 
             if (totolotoContext.Jogos.Any())
             {
@@ -29,42 +31,146 @@ namespace Totoloto
 
                 if (lastGame.Data.DayOfWeek == DayOfWeek.Wednesday)
                     if (lastGame.Data.AddDays(3) < DateTime.Now)
-                        update = true;
+                        enableUpdate = true;
                     else if (lastGame.Data.DayOfWeek == DayOfWeek.Saturday)
                         if (lastGame.Data.AddDays(4) < DateTime.Now)
-                            update = true;
+                            enableUpdate = true;
+
+                if (!totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasNumerosDoSorteio)) ||
+                    !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasNumerosDaSorte)) ||
+                     totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Data < lastGame.Data))
+                    enableUpdate = true;
+
             }
             else
             {
                 txtInformations.Text = "Nenhum jogo encontrado na base de dados";
-                update = true;
+                enableUpdate = true;
             }
 
-            btnAtualizarJogos.Visible = update;
-            btnAtualizarJogos.Enabled = update;
+            ChangeButtonsVisualization(!enableUpdate);
 
+            btnAtualizarJogos.Visible = enableUpdate;
+            btnAtualizarJogos.Enabled = enableUpdate;
         }
 
         private void btnAtualizarJogos_Click(object sender, EventArgs e)
         {
-            List<Jogo> jogos = GetGamesByDate();
+            UpdateGames();
 
+            UpdateStatistic();
 
-            totolotoContext.Jogos.AddRange(jogos);
-            totolotoContext.SaveChanges();
-
-
-            totolotoContextFactory.GenerateScripts();
-
-            btnAtualizarJogos.Visible = false;
-            btnAtualizarJogos.Enabled = false;
+            bool enableUpdate = false;
+            ChangeButtonsVisualization(!enableUpdate);
+            btnAtualizarJogos.Visible = enableUpdate;
+            btnAtualizarJogos.Enabled = enableUpdate;
             txtInformations.Text = "Jogos atualizados";
 
             var lastGame = totolotoContext.Jogos.OrderBy(x => x.Data).Last();
             txtInformations.Text = $"Último jogo carregado {lastGame.NumeroJogo}, Data: {lastGame.Data.ToString("dd/MM/yyyy")}";
         }
 
-        private List<Jogo> GetGamesByDate()
+        private void UpdateStatistic()
+        {
+            UpdateStatisticLuckyNumbers();
+            UpdateStatisticDrawNumbers();
+        }
+
+        private void UpdateStatisticDrawNumbers()
+        {
+            var statisticLuckyNumbers = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasNumerosDoSorteio));
+
+            if (statisticLuckyNumbers == null)
+            {
+                var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.EstatisticasNumerosDoSorteio), Data = new DateTime(1900, 1, 1) };
+                totolotoContext.EstatisticasNumerosUltimaData.Add(statistic);
+                totolotoContext.SaveChanges();
+                statisticLuckyNumbers = statistic;
+            }
+
+
+
+        }
+
+        private void UpdateStatisticLuckyNumbers()
+        {
+            var statisticLuckyNumbers = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasNumerosDaSorte));
+
+            if (statisticLuckyNumbers == null)
+            {
+                var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.EstatisticasNumerosDaSorte), Data = new DateTime(1900, 1, 1) };
+                totolotoContext.EstatisticasNumerosUltimaData.Add(statistic);
+                totolotoContext.SaveChanges();
+                statisticLuckyNumbers = statistic;
+            }
+
+            var games = totolotoContext.Jogos.Where(j => j.Data > statisticLuckyNumbers.Data).OrderBy(x => x.Data).ToList();
+
+            Jogo Lastgame = new Jogo();
+            int sequence = 1;
+
+            foreach (var game in games)
+            {
+                var estatisticasNumerosDaSorte = totolotoContext.EstatisticasNumerosDaSortes.First(x => x.Numero == game.NumeroSorte);
+
+                if (Lastgame.NumeroSorte == game.NumeroSorte)
+                    sequence += 1;
+                else
+                    sequence = 1;
+
+                if (Lastgame.NumeroSorte > 0)
+                {
+                    var sequenciaNumeroDaSortes = totolotoContext.SequenciaNumerosDaSortes.FirstOrDefault(x => x.Numero == game.NumeroSorte && x.NumeroAnterior == Lastgame.NumeroSorte);
+
+                    if (sequenciaNumeroDaSortes == null)
+                    {
+                        sequenciaNumeroDaSortes = new SequenciaNumerosDaSorte { Numero = game.NumeroSorte, NumeroAnterior = Lastgame.NumeroSorte, Quantidade = 1 };
+                        totolotoContext.SequenciaNumerosDaSortes.Add(sequenciaNumeroDaSortes);
+                    }
+                    else
+                    {
+                        sequenciaNumeroDaSortes.Quantidade += 1;
+                        totolotoContext.SequenciaNumerosDaSortes.Update(sequenciaNumeroDaSortes);
+                    }
+
+                    totolotoContext.SaveChanges();
+                }
+
+                estatisticasNumerosDaSorte.AtrasoAtual = 0;
+                estatisticasNumerosDaSorte.MaiorSequencia = estatisticasNumerosDaSorte.MaiorSequencia > sequence ? estatisticasNumerosDaSorte.MaiorSequencia : sequence;
+                estatisticasNumerosDaSorte.SequenciaAtual = sequence;
+                estatisticasNumerosDaSorte.Sorteado += 1;
+
+                totolotoContext.EstatisticasNumerosDaSortes.Update(estatisticasNumerosDaSorte);
+
+                UpdateOtherLuckyNumbers(game.NumeroSorte);
+
+                statisticLuckyNumbers.Data = game.Data;
+                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticLuckyNumbers);
+                totolotoContext.SaveChanges();
+
+                Lastgame = game;
+            }
+        }
+
+        private void UpdateOtherLuckyNumbers(int numero)
+        {
+            var estatisticasNumerosDaSorteList = totolotoContext.EstatisticasNumerosDaSortes.Where(x => x.Numero != numero).ToList();
+
+            foreach (var estatisticasNumerosDaSorte in estatisticasNumerosDaSorteList)
+            {
+                estatisticasNumerosDaSorte.AtrasoAtual += 1;
+
+                estatisticasNumerosDaSorte.AtrasoMaximo = estatisticasNumerosDaSorte.AtrasoAtual > estatisticasNumerosDaSorte.AtrasoMaximo ? estatisticasNumerosDaSorte.AtrasoAtual : estatisticasNumerosDaSorte.AtrasoMaximo;
+
+                estatisticasNumerosDaSorte.SequenciaAtual = 0;
+            }
+
+            totolotoContext.EstatisticasNumerosDaSortes.UpdateRange(estatisticasNumerosDaSorteList);
+            totolotoContext.SaveChanges();
+        }
+
+        private void UpdateGames()
         {
             List<Jogo> jogos = new List<Jogo>();
             var baseUrl = ConfigurationManager.AppSettings.Get("UrlByDate");
@@ -126,7 +232,9 @@ namespace Totoloto
                 }
             }
 
-            return jogos;
+            totolotoContext.Jogos.AddRange(jogos);
+            totolotoContext.SaveChanges();
+            totolotoContextFactory.GenerateScripts();
         }
 
         private List<DateTime> GetGameDates()
@@ -257,6 +365,18 @@ namespace Totoloto
         private void btnGerarJogo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        void ChangeButtonsVisualization(bool enabled)
+        {
+            foreach (var btn in this.Controls.OfType<Button>())
+            {
+                if (btn != null)
+                {
+                    btn.Enabled = enabled;
+                    btn.Visible = enabled;
+                }
+            }
         }
     }
 }

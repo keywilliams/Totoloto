@@ -46,12 +46,20 @@
       {
          "Name": "[dbo].[NumerosDoSorteio]",
          "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SequenciaNumerosDaSorte]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SequenciaNumerosDoSorteio]",
+         "ObjectType": 0
       }
    ],
    "UiHint": "SQLEXPRESS",
    "UncountableWords": null,
    "UseBoolPropertiesWithoutDefaultSql": false,
-   "UseDatabaseNames": false,
+   "UseDatabaseNames": true,
    "UseDateOnlyTimeOnly": false,
    "UseDbContextSplitting": false,
    "UseFluentApiOnly": true,

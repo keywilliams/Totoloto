@@ -7,7 +7,7 @@ namespace TotolotoRepository.Models;
 
 public partial class EstatisticasNumerosUltimaDatum
 {
-    public DateTime Data { get; set; }
-
     public string Tabela { get; set; }
+
+    public DateTime Data { get; set; }
 }

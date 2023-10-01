@@ -1,5 +1,129 @@
 USE [Totoloto]
 GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (1, 0, 1, 1, 0, 1, 0, 1, 1)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (2, 1, 0, 1, 0, 0, 0, 1, 2)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (3, 0, 1, 1, 0, 0, 0, 1, 3)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (4, 1, 0, 1, 0, 0, 0, 1, 4)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (5, 0, 1, 1, 0, 0, 0, 1, 5)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (6, 1, 0, 1, 0, 0, 0, 1, 6)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (7, 0, 1, 1, 0, 0, 1, 1, 7)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (8, 1, 0, 1, 0, 0, 0, 2, 1)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (9, 0, 1, 0, 1, 1, 0, 2, 2)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (10, 1, 0, 0, 1, 0, 0, 2, 3)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (11, 0, 1, 0, 1, 0, 0, 2, 4)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (12, 1, 0, 0, 1, 0, 0, 2, 5)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (13, 0, 1, 0, 1, 0, 1, 2, 6)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (14, 1, 0, 1, 0, 0, 0, 2, 7)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (15, 0, 1, 1, 0, 0, 0, 3, 1)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (16, 1, 0, 0, 1, 0, 0, 3, 2)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (17, 0, 1, 0, 1, 1, 0, 3, 3)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (18, 1, 0, 0, 1, 0, 0, 3, 4)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (19, 0, 1, 0, 1, 0, 1, 3, 5)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (20, 1, 0, 0, 1, 0, 0, 3, 6)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (21, 0, 1, 1, 0, 0, 0, 3, 7)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (22, 1, 0, 1, 0, 0, 0, 4, 1)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (23, 0, 1, 0, 1, 0, 0, 4, 2)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (24, 1, 0, 0, 1, 0, 0, 4, 3)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (25, 0, 1, 0, 1, 1, 1, 4, 4)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (26, 1, 0, 0, 1, 0, 0, 4, 5)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (27, 0, 1, 0, 1, 0, 0, 4, 6)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (28, 1, 0, 1, 0, 0, 0, 4, 7)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (29, 0, 1, 1, 0, 0, 0, 5, 1)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (30, 1, 0, 0, 1, 0, 0, 5, 2)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (31, 0, 1, 0, 1, 0, 1, 5, 3)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (32, 1, 0, 0, 1, 0, 0, 5, 4)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (33, 0, 1, 0, 1, 1, 0, 5, 5)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (34, 1, 0, 0, 1, 0, 0, 5, 6)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (35, 0, 1, 1, 0, 0, 0, 5, 7)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (36, 1, 0, 1, 0, 0, 0, 6, 1)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (37, 0, 1, 0, 1, 0, 1, 6, 2)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (38, 1, 0, 0, 1, 0, 0, 6, 3)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (39, 0, 1, 0, 1, 0, 0, 6, 4)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (40, 1, 0, 0, 1, 0, 0, 6, 5)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (41, 0, 1, 0, 1, 1, 0, 6, 6)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (42, 1, 0, 1, 0, 0, 0, 6, 7)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (43, 0, 1, 1, 0, 0, 1, 7, 1)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (44, 1, 0, 1, 0, 0, 0, 7, 2)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (45, 0, 1, 1, 0, 0, 0, 7, 3)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (46, 1, 0, 1, 0, 0, 0, 7, 4)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (47, 0, 1, 1, 0, 0, 0, 7, 5)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (48, 1, 0, 1, 0, 0, 0, 7, 6)
+GO
+INSERT [dbo].[NumerosDoSorteio] ([Numero], [Par], [Impar], [Borda], [Miolo], [DiagonalDireita], [DiagonalEsquerda], [Linha], [Coluna]) VALUES (49, 0, 1, 1, 0, 1, 0, 7, 7)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (1, 0, 1)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (2, 1, 0)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (3, 0, 1)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (4, 1, 0)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (5, 0, 1)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (6, 1, 0)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (7, 0, 1)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (8, 1, 0)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (9, 0, 1)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (10, 1, 0)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (11, 0, 1)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (12, 1, 0)
+GO
+INSERT [dbo].[NumerosDaSorte] ([Numero], [Par], [Impar]) VALUES (13, 0, 1)
+GO
 SET IDENTITY_INSERT [dbo].[Jogos] ON 
 GO
 INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1, 95, CAST(N'2011-11-28T00:00:00.000' AS DateTime), 7, 13, 19, 20, 31, 3)
@@ -2623,4 +2747,568 @@ GO
 INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1310, 78, CAST(N'2023-09-30T00:00:00.000' AS DateTime), 20, 25, 31, 42, 45, 11)
 GO
 SET IDENTITY_INSERT [dbo].[Jogos] OFF
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (1, 1)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (2, 2)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (3, 3)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (4, 4)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (5, 5)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (6, 6)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (7, 7)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (8, 1)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (9, 2)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (10, 3)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (11, 4)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (12, 5)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (13, 6)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (14, 7)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (15, 1)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (16, 2)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (17, 3)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (18, 4)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (19, 5)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (20, 6)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (21, 7)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (22, 1)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (23, 2)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (24, 3)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (25, 4)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (26, 5)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (27, 6)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (28, 7)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (29, 1)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (30, 2)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (31, 3)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (32, 4)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (33, 5)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (34, 6)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (35, 7)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (36, 1)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (37, 2)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (38, 3)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (39, 4)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (40, 5)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (41, 6)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (42, 7)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (43, 1)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (44, 2)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (45, 3)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (46, 4)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (47, 5)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (48, 6)
+GO
+INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (49, 7)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (1, 1)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (2, 1)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (3, 1)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (4, 1)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (5, 1)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (6, 1)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (7, 1)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (8, 2)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (9, 2)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (10, 2)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (11, 2)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (12, 2)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (13, 2)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (14, 2)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (15, 3)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (16, 3)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (17, 3)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (18, 3)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (19, 3)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (20, 3)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (21, 3)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (22, 4)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (23, 4)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (24, 4)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (25, 4)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (26, 4)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (27, 4)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (28, 4)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (29, 5)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (30, 5)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (31, 5)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (32, 5)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (33, 5)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (34, 5)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (35, 5)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (36, 6)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (37, 6)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (38, 6)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (39, 6)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (40, 6)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (41, 6)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (42, 6)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (43, 7)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (44, 7)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (45, 7)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (46, 7)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (47, 7)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (48, 7)
+GO
+INSERT [dbo].[Linhas] ([Numero], [NumeroLinha]) VALUES (49, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 2, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 3, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 4, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 5, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 8, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 9, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 10, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 11, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (1, 13, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 1, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 2, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 3, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 4, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 5, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 7, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 8, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 9, 1)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 10, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 11, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 12, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (2, 13, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 1, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 2, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 3, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 4, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 5, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 6, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 9, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 10, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 11, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 12, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (3, 13, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 1, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 2, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 3, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 4, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 6, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 7, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 8, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 9, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 10, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 12, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (4, 13, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 1, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 2, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 3, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 4, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 5, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 6, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 7, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 9, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 10, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 11, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 12, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (5, 13, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 1, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 2, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 3, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 4, 2)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 5, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 6, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 7, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 9, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 10, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 11, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 12, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (6, 13, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 1, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 2, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 3, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 4, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 5, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 6, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 7, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 8, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 10, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 11, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 12, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (7, 13, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 1, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 3, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 4, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 5, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 6, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 7, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 9, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 10, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 11, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 12, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (8, 13, 2)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 1, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 2, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 3, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 4, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 6, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 7, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 8, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 10, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 11, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 12, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (9, 13, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 1, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 3, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 4, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 5, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 6, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 7, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 8, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 9, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 10, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 11, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 12, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (10, 13, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 1, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 2, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 3, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 4, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 6, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 7, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 8, 2)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 9, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 10, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 11, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 12, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (11, 13, 2)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 1, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 2, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 3, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 4, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 5, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 6, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 7, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 9, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 12, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (12, 13, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 1, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 3, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 4, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 5, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 6, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 7, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 9, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 10, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 11, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 13, 9)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (1, 106, 64, 13, 3, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (2, 108, 46, 3, 2, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (3, 102, 90, 7, 3, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (4, 108, 105, 21, 2, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (5, 102, 54, 31, 2, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (6, 88, 93, 10, 2, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (7, 113, 46, 2, 3, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (8, 92, 75, 4, 2, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (9, 107, 64, 22, 2, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (10, 109, 74, 5, 2, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (11, 81, 55, 0, 2, 2)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (12, 99, 66, 14, 2, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosDaSorte] ([Numero], [Sorteado], [AtrasoMaximo], [AtrasoAtual], [MaiorSequencia], [SequenciaAtual]) VALUES (13, 95, 64, 8, 3, 0)
+GO
+INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasNumerosDaSorte', CAST(N'2023-09-30T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasNumerosDoSorteio', CAST(N'1900-01-01T00:00:00.000' AS DateTime))
 GO
