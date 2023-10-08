@@ -2622,5 +2622,9 @@ INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Num
 GO
 INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1310, 78, CAST(N'2023-09-30T00:00:00.000' AS DateTime), 20, 25, 31, 42, 45, 11)
 GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1311, 79, CAST(N'2023-10-04T00:00:00.000' AS DateTime), 5, 16, 24, 30, 32, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1312, 80, CAST(N'2023-10-07T00:00:00.000' AS DateTime), 3, 13, 18, 41, 45, 12)
+GO
 SET IDENTITY_INSERT [dbo].[Jogos] OFF
 GO

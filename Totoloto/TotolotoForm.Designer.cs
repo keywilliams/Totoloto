@@ -80,6 +80,7 @@
             Controls.Add(btnGerarJogo);
             Controls.Add(txtInformations);
             Controls.Add(btnAtualizarJogos);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "TotolotoForm";
