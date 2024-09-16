@@ -171,7 +171,7 @@ public partial class TotolotoContext : DbContext
 
         modelBuilder.Entity<SequenciaNumerosDoSorteio>(entity =>
         {
-            entity.HasKey(e => new { e.Numero, e.NumeroAnterior });
+            entity.HasKey(e => new { e.Numero, e.NumeroMesmoJogo });
 
             entity.ToTable("SequenciaNumerosDoSorteio");
 
@@ -180,8 +180,8 @@ public partial class TotolotoContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_SequenciaNumerosDoSorteio_NumerosDoSorteio");
 
-            entity.HasOne(d => d.NumeroAnteriorNavigation).WithMany(p => p.SequenciaNumerosDoSorteioNumeroAnteriorNavigations)
-                .HasForeignKey(d => d.NumeroAnterior)
+            entity.HasOne(d => d.NumeroMesmoJogoNavigation).WithMany(p => p.SequenciaNumerosDoSorteioNumeroMesmoJogoNavigations)
+                .HasForeignKey(d => d.NumeroMesmoJogo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_SequenciaNumerosDoSorteio_NumerosDoSorteio1");
         });

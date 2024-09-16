@@ -11,15 +11,11 @@ public partial class EstatisticasNumerosDoSorteio
 
     public int Sorteado { get; set; }
 
-    public int AtrasoMinimo { get; set; }
-
     public int AtrasoMaximo { get; set; }
 
     public int AtrasoAtual { get; set; }
 
     public int MaiorSequencia { get; set; }
-
-    public int MenorSequencia { get; set; }
 
     public int SequenciaAtual { get; set; }
 

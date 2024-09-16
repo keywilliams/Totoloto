@@ -1,12 +1,12 @@
 USE [master]
 GO
-/****** Object:  Database [Totoloto]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Database [Totoloto]    Script Date: 16/09/2024 22:32:10 ******/
 CREATE DATABASE [Totoloto]
  CONTAINMENT = NONE
  ON  PRIMARY 
 ( NAME = N'Totoloto', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\Totoloto.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
  LOG ON 
-( NAME = N'Totoloto_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\Totoloto_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+( NAME = N'Totoloto_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\Totoloto_log.ldf' , SIZE = 73728KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
  WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
 GO
 ALTER DATABASE [Totoloto] SET COMPATIBILITY_LEVEL = 160
@@ -82,7 +82,7 @@ ALTER DATABASE [Totoloto] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP_
 GO
 USE [Totoloto]
 GO
-/****** Object:  Table [dbo].[Colunas]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[Colunas]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -96,7 +96,7 @@ CREATE TABLE [dbo].[Colunas](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[EstatisticasNumerosDaSorte]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[EstatisticasNumerosDaSorte]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -114,7 +114,7 @@ CREATE TABLE [dbo].[EstatisticasNumerosDaSorte](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[EstatisticasNumerosDoSorteio]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[EstatisticasNumerosDoSorteio]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -122,11 +122,9 @@ GO
 CREATE TABLE [dbo].[EstatisticasNumerosDoSorteio](
 	[Numero] [int] NOT NULL,
 	[Sorteado] [int] NOT NULL,
-	[AtrasoMinimo] [int] NOT NULL,
 	[AtrasoMaximo] [int] NOT NULL,
 	[AtrasoAtual] [int] NOT NULL,
 	[MaiorSequencia] [int] NOT NULL,
-	[MenorSequencia] [int] NOT NULL,
 	[SequenciaAtual] [int] NOT NULL,
  CONSTRAINT [PK_EstatisticasNumerosDoSorteio] PRIMARY KEY CLUSTERED 
 (
@@ -134,7 +132,7 @@ CREATE TABLE [dbo].[EstatisticasNumerosDoSorteio](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[EstatisticasNumerosUltimaData]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[EstatisticasNumerosUltimaData]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -148,7 +146,7 @@ CREATE TABLE [dbo].[EstatisticasNumerosUltimaData](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Jogos]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[Jogos]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -169,7 +167,7 @@ CREATE TABLE [dbo].[Jogos](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Linhas]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[Linhas]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -183,7 +181,7 @@ CREATE TABLE [dbo].[Linhas](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[NumerosDaSorte]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[NumerosDaSorte]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -198,7 +196,7 @@ CREATE TABLE [dbo].[NumerosDaSorte](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[NumerosDoSorteio]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[NumerosDoSorteio]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -219,7 +217,7 @@ CREATE TABLE [dbo].[NumerosDoSorteio](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[SequenciaNumerosDaSorte]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[SequenciaNumerosDaSorte]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -235,19 +233,19 @@ CREATE TABLE [dbo].[SequenciaNumerosDaSorte](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[SequenciaNumerosDoSorteio]    Script Date: 01/10/2023 21:11:01 ******/
+/****** Object:  Table [dbo].[SequenciaNumerosDoSorteio]    Script Date: 16/09/2024 22:32:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[SequenciaNumerosDoSorteio](
 	[Numero] [int] NOT NULL,
-	[NumeroAnterior] [int] NOT NULL,
+	[NumeroMesmoJogo] [int] NOT NULL,
 	[Quantidade] [int] NOT NULL,
  CONSTRAINT [PK_SequenciaNumerosDoSorteio] PRIMARY KEY CLUSTERED 
 (
 	[Numero] ASC,
-	[NumeroAnterior] ASC
+	[NumeroMesmoJogo] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
@@ -316,7 +314,7 @@ REFERENCES [dbo].[NumerosDoSorteio] ([Numero])
 GO
 ALTER TABLE [dbo].[SequenciaNumerosDoSorteio] CHECK CONSTRAINT [FK_SequenciaNumerosDoSorteio_NumerosDoSorteio]
 GO
-ALTER TABLE [dbo].[SequenciaNumerosDoSorteio]  WITH CHECK ADD  CONSTRAINT [FK_SequenciaNumerosDoSorteio_NumerosDoSorteio1] FOREIGN KEY([NumeroAnterior])
+ALTER TABLE [dbo].[SequenciaNumerosDoSorteio]  WITH CHECK ADD  CONSTRAINT [FK_SequenciaNumerosDoSorteio_NumerosDoSorteio1] FOREIGN KEY([NumeroMesmoJogo])
 REFERENCES [dbo].[NumerosDoSorteio] ([Numero])
 GO
 ALTER TABLE [dbo].[SequenciaNumerosDoSorteio] CHECK CONSTRAINT [FK_SequenciaNumerosDoSorteio_NumerosDoSorteio1]

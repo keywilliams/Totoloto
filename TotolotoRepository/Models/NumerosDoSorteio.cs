@@ -41,7 +41,7 @@ public partial class NumerosDoSorteio
 
     public virtual Linha LinhaNavigation { get; set; }
 
-    public virtual ICollection<SequenciaNumerosDoSorteio> SequenciaNumerosDoSorteioNumeroAnteriorNavigations { get; set; } = new List<SequenciaNumerosDoSorteio>();
+    public virtual ICollection<SequenciaNumerosDoSorteio> SequenciaNumerosDoSorteioNumeroMesmoJogoNavigations { get; set; } = new List<SequenciaNumerosDoSorteio>();
 
     public virtual ICollection<SequenciaNumerosDoSorteio> SequenciaNumerosDoSorteioNumeroNavigations { get; set; } = new List<SequenciaNumerosDoSorteio>();
 }

@@ -9,11 +9,11 @@ public partial class SequenciaNumerosDoSorteio
 {
     public int Numero { get; set; }
 
-    public int NumeroAnterior { get; set; }
+    public int NumeroMesmoJogo { get; set; }
 
     public int Quantidade { get; set; }
 
-    public virtual NumerosDoSorteio NumeroAnteriorNavigation { get; set; }
+    public virtual NumerosDoSorteio NumeroMesmoJogoNavigation { get; set; }
 
     public virtual NumerosDoSorteio NumeroNavigation { get; set; }
 }

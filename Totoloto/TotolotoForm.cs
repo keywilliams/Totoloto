@@ -13,6 +13,7 @@ namespace Totoloto
     {
         public ITotolotoContextFactory totolotoContextFactory;
         public TotolotoContext totolotoContext;
+
         public TotolotoForm(ITotolotoContextFactory totolotoContextFactory)
         {
             this.totolotoContextFactory = totolotoContextFactory;
@@ -40,7 +41,6 @@ namespace Totoloto
                     !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasNumerosDaSorte)) ||
                      totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Data < lastGame.Data))
                     enableUpdate = true;
-
             }
             else
             {
@@ -88,8 +88,81 @@ namespace Totoloto
                 statisticLuckyNumbers = statistic;
             }
 
+            var games = totolotoContext.Jogos.Where(j => j.Data > statisticLuckyNumbers.Data).OrderBy(x => x.Data).ToList();
 
+            List<int> lastNumbers = new List<int>();
+            int sequence = 1;
 
+            foreach (var game in games)
+            {
+                List<int> numbers = new List<int> { game.Numero1, game.Numero2, game.Numero3, game.Numero4, game.Numero5 };
+
+                foreach (int number in numbers)
+                {
+                    var estatisticasNumerosDoSorteios = totolotoContext.EstatisticasNumerosDoSorteios.First(x => x.Numero == number);
+
+                    if (lastNumbers.Contains(number))
+                        sequence += 1;
+                    else
+                        sequence = 1;
+
+                    estatisticasNumerosDoSorteios.Sorteado += 1;
+                    estatisticasNumerosDoSorteios.AtrasoAtual = 0;
+                    estatisticasNumerosDoSorteios.MaiorSequencia = estatisticasNumerosDoSorteios.MaiorSequencia > sequence ? estatisticasNumerosDoSorteios.MaiorSequencia : sequence;
+                    estatisticasNumerosDoSorteios.SequenciaAtual = sequence;
+
+                    totolotoContext.EstatisticasNumerosDoSorteios.Update(estatisticasNumerosDoSorteios);
+
+                    foreach (int numberSameGame in numbers)
+                    {
+                        if (number != numberSameGame)
+                            UpdateSequenciaNumerosDoSorteios(number, numberSameGame);
+                    }
+                }
+
+                UpdateOtherDrawNumbers(numbers);
+
+                statisticLuckyNumbers.Data = game.Data;
+                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticLuckyNumbers);
+                totolotoContext.SaveChanges();
+
+                lastNumbers = new List<int> { game.Numero1, game.Numero2, game.Numero3, game.Numero4, game.Numero5 };
+            }
+        }
+
+        private void UpdateOtherDrawNumbers(List<int> numeros)
+        {
+            var estatisticasNumerosDoSorteiosList = totolotoContext.EstatisticasNumerosDoSorteios.Where(x => !numeros.Contains(x.Numero)).ToList();
+
+            foreach (var estatisticasNumerosDoSorteios in estatisticasNumerosDoSorteiosList)
+            {
+                estatisticasNumerosDoSorteios.AtrasoAtual += 1;
+
+                estatisticasNumerosDoSorteios.AtrasoMaximo = estatisticasNumerosDoSorteios.AtrasoAtual > estatisticasNumerosDoSorteios.AtrasoMaximo ? estatisticasNumerosDoSorteios.AtrasoAtual : estatisticasNumerosDoSorteios.AtrasoMaximo;
+
+                estatisticasNumerosDoSorteios.SequenciaAtual = 0;
+            }
+
+            totolotoContext.EstatisticasNumerosDoSorteios.UpdateRange(estatisticasNumerosDoSorteiosList);
+            totolotoContext.SaveChanges();
+        }
+
+        private void UpdateSequenciaNumerosDoSorteios(int number, int numberSameGame)
+        {
+            var sequenciaNumerosDoSorteios = totolotoContext.SequenciaNumerosDoSorteios.FirstOrDefault(x => x.Numero == number && x.NumeroMesmoJogo == numberSameGame);
+
+            if (sequenciaNumerosDoSorteios == null)
+            {
+                sequenciaNumerosDoSorteios = new SequenciaNumerosDoSorteio { Numero = number, NumeroMesmoJogo = numberSameGame, Quantidade = 1 };
+                totolotoContext.SequenciaNumerosDoSorteios.Add(sequenciaNumerosDoSorteios);
+            }
+            else
+            {
+                sequenciaNumerosDoSorteios.Quantidade += 1;
+                totolotoContext.SequenciaNumerosDoSorteios.Update(sequenciaNumerosDoSorteios);
+            }
+
+            totolotoContext.SaveChanges();
         }
 
         private void UpdateStatisticLuckyNumbers()
@@ -153,9 +226,9 @@ namespace Totoloto
             }
         }
 
-        private void UpdateOtherLuckyNumbers(int numero)
+        private void UpdateOtherLuckyNumbers(int number)
         {
-            var estatisticasNumerosDaSorteList = totolotoContext.EstatisticasNumerosDaSortes.Where(x => x.Numero != numero).ToList();
+            var estatisticasNumerosDaSorteList = totolotoContext.EstatisticasNumerosDaSortes.Where(x => x.Numero != number).ToList();
 
             foreach (var estatisticasNumerosDaSorte in estatisticasNumerosDaSorteList)
             {
@@ -189,7 +262,6 @@ namespace Totoloto
 
                         var htmlDoc = new HtmlAgilityPack.HtmlDocument();
                         htmlDoc.LoadHtml(html);
-
 
                         var spanNodes = htmlDoc.DocumentNode.Descendants(0).Where(x => x.HasClass("label") && x.HasClass("label-estr"))?.ToArray();
 
@@ -262,7 +334,6 @@ namespace Totoloto
             var baseUrl = ConfigurationManager.AppSettings.Get("BaseUrl");
             var pages = ConfigurationManager.AppSettings.Get("Pages")?.Split("|").ToList();
 
-
             foreach (var page in pages)
             {
                 var handler = new HttpClientHandler();
@@ -283,7 +354,6 @@ namespace Totoloto
 
                         var htmlDoc = new HtmlAgilityPack.HtmlDocument();
                         htmlDoc.LoadHtml(html);
-
 
                         HtmlNode divElement2 = htmlDoc.DocumentNode.SelectSingleNode("//div[@id='article']/div/nav");
                         htmlDoc.LoadHtml(divElement2.InnerHtml);
@@ -315,7 +385,6 @@ namespace Totoloto
                                                 data = $"0{data}";
                                             else
                                                 throw new Exception(aNode.InnerText);
-
 
                                             if (DateTime.TryParse(data, out DateTime result))
                                                 jogo.Data = result;
@@ -350,7 +419,6 @@ namespace Totoloto
                                 }
                                 catch (Exception exc)
                                 {
-
                                     txtInformations.Text = $"{txtInformations.Text}|{liNode.InnerHtml}:{exc.Message}";
                                 }
                             }
@@ -364,10 +432,9 @@ namespace Totoloto
 
         private void btnGerarJogo_Click(object sender, EventArgs e)
         {
-
         }
 
-        void ChangeButtonsVisualization(bool enabled)
+        private void ChangeButtonsVisualization(bool enabled)
         {
             foreach (var btn in this.Controls.OfType<Button>())
             {

@@ -2626,5 +2626,201 @@ INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Num
 GO
 INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1312, 80, CAST(N'2023-10-07T00:00:00.000' AS DateTime), 3, 13, 18, 41, 45, 12)
 GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1313, 81, CAST(N'2023-10-11T00:00:00.000' AS DateTime), 4, 13, 16, 39, 48, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1314, 82, CAST(N'2023-10-14T00:00:00.000' AS DateTime), 8, 18, 20, 48, 49, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1315, 83, CAST(N'2023-10-18T00:00:00.000' AS DateTime), 5, 7, 10, 28, 49, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1316, 84, CAST(N'2023-10-21T00:00:00.000' AS DateTime), 6, 20, 24, 39, 49, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1317, 85, CAST(N'2023-10-25T00:00:00.000' AS DateTime), 20, 29, 31, 35, 41, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1318, 86, CAST(N'2023-10-28T00:00:00.000' AS DateTime), 7, 13, 14, 22, 34, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1319, 87, CAST(N'2023-11-01T00:00:00.000' AS DateTime), 11, 29, 37, 39, 42, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1320, 88, CAST(N'2023-11-04T00:00:00.000' AS DateTime), 23, 29, 32, 33, 37, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1321, 89, CAST(N'2023-11-08T00:00:00.000' AS DateTime), 18, 32, 33, 43, 45, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1322, 90, CAST(N'2023-11-11T00:00:00.000' AS DateTime), 15, 21, 38, 39, 41, 5)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1323, 91, CAST(N'2023-11-15T00:00:00.000' AS DateTime), 2, 15, 20, 22, 41, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1324, 92, CAST(N'2023-11-18T00:00:00.000' AS DateTime), 7, 20, 30, 43, 45, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1325, 93, CAST(N'2023-11-22T00:00:00.000' AS DateTime), 4, 11, 22, 25, 29, 2)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1326, 94, CAST(N'2023-11-25T00:00:00.000' AS DateTime), 5, 16, 38, 43, 45, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1327, 95, CAST(N'2023-11-29T00:00:00.000' AS DateTime), 7, 12, 26, 32, 33, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1328, 96, CAST(N'2023-12-02T00:00:00.000' AS DateTime), 7, 33, 35, 37, 42, 13)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1329, 97, CAST(N'2023-12-06T00:00:00.000' AS DateTime), 9, 13, 25, 41, 46, 13)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1330, 98, CAST(N'2023-12-09T00:00:00.000' AS DateTime), 22, 24, 30, 33, 39, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1331, 99, CAST(N'2023-12-13T00:00:00.000' AS DateTime), 23, 25, 26, 41, 45, 7)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1332, 100, CAST(N'2023-12-16T00:00:00.000' AS DateTime), 8, 13, 18, 31, 43, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1333, 101, CAST(N'2023-12-20T00:00:00.000' AS DateTime), 3, 8, 10, 25, 31, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1334, 102, CAST(N'2023-12-23T00:00:00.000' AS DateTime), 8, 11, 22, 23, 45, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1335, 103, CAST(N'2023-12-27T00:00:00.000' AS DateTime), 6, 15, 16, 20, 45, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1336, 104, CAST(N'2023-12-30T00:00:00.000' AS DateTime), 10, 25, 29, 34, 36, 11)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1337, 1, CAST(N'2024-01-03T00:00:00.000' AS DateTime), 4, 10, 32, 40, 41, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1338, 2, CAST(N'2024-01-06T00:00:00.000' AS DateTime), 5, 9, 33, 43, 44, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1339, 3, CAST(N'2024-01-10T00:00:00.000' AS DateTime), 1, 2, 19, 25, 32, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1340, 4, CAST(N'2024-01-13T00:00:00.000' AS DateTime), 18, 24, 25, 41, 42, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1341, 5, CAST(N'2024-01-17T00:00:00.000' AS DateTime), 13, 35, 36, 39, 40, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1342, 6, CAST(N'2024-01-20T00:00:00.000' AS DateTime), 4, 25, 26, 34, 38, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1343, 7, CAST(N'2024-01-24T00:00:00.000' AS DateTime), 20, 23, 26, 29, 35, 7)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1344, 8, CAST(N'2024-01-27T00:00:00.000' AS DateTime), 6, 13, 26, 37, 47, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1345, 9, CAST(N'2024-01-31T00:00:00.000' AS DateTime), 7, 8, 20, 27, 42, 7)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1346, 10, CAST(N'2024-02-03T00:00:00.000' AS DateTime), 4, 8, 21, 32, 36, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1347, 11, CAST(N'2024-02-07T00:00:00.000' AS DateTime), 4, 14, 26, 27, 31, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1348, 12, CAST(N'2024-02-10T00:00:00.000' AS DateTime), 11, 26, 31, 39, 48, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1349, 13, CAST(N'2024-02-14T00:00:00.000' AS DateTime), 6, 7, 34, 44, 48, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1350, 14, CAST(N'2024-02-17T00:00:00.000' AS DateTime), 15, 20, 32, 45, 49, 5)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1351, 15, CAST(N'2024-02-21T00:00:00.000' AS DateTime), 14, 21, 25, 42, 45, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1352, 16, CAST(N'2024-02-24T00:00:00.000' AS DateTime), 3, 8, 22, 25, 31, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1353, 17, CAST(N'2024-02-28T00:00:00.000' AS DateTime), 16, 17, 27, 47, 48, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1354, 18, CAST(N'2024-03-02T00:00:00.000' AS DateTime), 16, 18, 29, 44, 47, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1355, 19, CAST(N'2024-03-06T00:00:00.000' AS DateTime), 7, 10, 34, 38, 48, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1356, 20, CAST(N'2024-03-09T00:00:00.000' AS DateTime), 5, 6, 9, 36, 48, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1357, 21, CAST(N'2024-03-13T00:00:00.000' AS DateTime), 8, 10, 22, 40, 43, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1358, 22, CAST(N'2024-03-16T00:00:00.000' AS DateTime), 16, 23, 24, 32, 35, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1359, 23, CAST(N'2024-03-20T00:00:00.000' AS DateTime), 5, 9, 12, 13, 27, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1360, 24, CAST(N'2024-03-23T00:00:00.000' AS DateTime), 3, 10, 14, 21, 27, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1361, 25, CAST(N'2024-03-27T00:00:00.000' AS DateTime), 9, 16, 23, 25, 32, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1362, 26, CAST(N'2024-03-30T00:00:00.000' AS DateTime), 3, 12, 24, 31, 48, 5)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1363, 27, CAST(N'2024-04-03T00:00:00.000' AS DateTime), 5, 7, 29, 38, 45, 2)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1364, 28, CAST(N'2024-04-06T00:00:00.000' AS DateTime), 6, 11, 15, 34, 35, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1365, 29, CAST(N'2024-04-10T00:00:00.000' AS DateTime), 18, 23, 38, 42, 49, 5)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1366, 30, CAST(N'2024-04-13T00:00:00.000' AS DateTime), 2, 16, 18, 26, 33, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1367, 31, CAST(N'2024-04-17T00:00:00.000' AS DateTime), 16, 24, 28, 31, 33, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1368, 32, CAST(N'2024-04-20T00:00:00.000' AS DateTime), 13, 36, 39, 45, 48, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1369, 33, CAST(N'2024-04-24T00:00:00.000' AS DateTime), 7, 19, 26, 31, 34, 13)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1370, 34, CAST(N'2024-04-27T00:00:00.000' AS DateTime), 17, 28, 30, 41, 43, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1371, 35, CAST(N'2024-05-01T00:00:00.000' AS DateTime), 8, 9, 11, 18, 41, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1372, 36, CAST(N'2024-05-04T00:00:00.000' AS DateTime), 5, 8, 19, 31, 46, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1373, 37, CAST(N'2024-05-08T00:00:00.000' AS DateTime), 4, 9, 18, 26, 38, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1374, 38, CAST(N'2024-05-11T00:00:00.000' AS DateTime), 2, 16, 28, 40, 44, 13)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1375, 39, CAST(N'2024-05-15T00:00:00.000' AS DateTime), 20, 37, 41, 46, 48, 11)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1376, 40, CAST(N'2024-05-18T00:00:00.000' AS DateTime), 2, 21, 35, 41, 43, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1377, 41, CAST(N'2024-05-22T00:00:00.000' AS DateTime), 6, 23, 39, 40, 44, 12)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1378, 42, CAST(N'2024-05-25T00:00:00.000' AS DateTime), 3, 11, 24, 25, 41, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1379, 43, CAST(N'2024-05-29T00:00:00.000' AS DateTime), 17, 19, 25, 28, 41, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1380, 44, CAST(N'2024-06-01T00:00:00.000' AS DateTime), 2, 16, 17, 32, 40, 5)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1381, 45, CAST(N'2024-06-05T00:00:00.000' AS DateTime), 11, 20, 35, 43, 46, 5)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1382, 46, CAST(N'2024-06-08T00:00:00.000' AS DateTime), 7, 9, 20, 24, 43, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1383, 47, CAST(N'2024-06-12T00:00:00.000' AS DateTime), 14, 18, 35, 41, 48, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1384, 48, CAST(N'2024-06-15T00:00:00.000' AS DateTime), 8, 17, 18, 41, 49, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1385, 49, CAST(N'2024-06-19T00:00:00.000' AS DateTime), 20, 21, 28, 39, 42, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1386, 50, CAST(N'2024-06-22T00:00:00.000' AS DateTime), 15, 20, 21, 38, 42, 6)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1387, 51, CAST(N'2024-06-26T00:00:00.000' AS DateTime), 17, 19, 32, 33, 41, 5)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1388, 52, CAST(N'2024-06-29T00:00:00.000' AS DateTime), 15, 26, 33, 34, 48, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1389, 53, CAST(N'2024-07-03T00:00:00.000' AS DateTime), 1, 14, 35, 37, 40, 1)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1390, 54, CAST(N'2024-07-06T00:00:00.000' AS DateTime), 6, 24, 34, 47, 48, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1391, 55, CAST(N'2024-07-10T00:00:00.000' AS DateTime), 11, 15, 22, 33, 41, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1392, 56, CAST(N'2024-07-13T00:00:00.000' AS DateTime), 12, 18, 19, 31, 39, 5)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1393, 57, CAST(N'2024-07-17T00:00:00.000' AS DateTime), 16, 18, 26, 37, 44, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1394, 58, CAST(N'2024-07-20T00:00:00.000' AS DateTime), 7, 18, 20, 22, 43, 7)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1395, 59, CAST(N'2024-07-24T00:00:00.000' AS DateTime), 3, 23, 29, 34, 48, 7)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1396, 60, CAST(N'2024-07-27T00:00:00.000' AS DateTime), 15, 22, 33, 36, 39, 11)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1397, 61, CAST(N'2024-07-31T00:00:00.000' AS DateTime), 8, 15, 24, 25, 49, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1398, 62, CAST(N'2024-08-03T00:00:00.000' AS DateTime), 7, 10, 14, 24, 35, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1399, 63, CAST(N'2024-08-07T00:00:00.000' AS DateTime), 7, 13, 17, 38, 45, 8)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1400, 64, CAST(N'2024-08-10T00:00:00.000' AS DateTime), 1, 11, 30, 46, 49, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1401, 65, CAST(N'2024-08-14T00:00:00.000' AS DateTime), 5, 29, 42, 47, 49, 10)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1402, 66, CAST(N'2024-08-17T00:00:00.000' AS DateTime), 3, 25, 34, 35, 45, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1403, 67, CAST(N'2024-08-21T00:00:00.000' AS DateTime), 4, 8, 12, 36, 47, 4)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1404, 68, CAST(N'2024-08-24T00:00:00.000' AS DateTime), 3, 4, 17, 33, 40, 2)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1405, 69, CAST(N'2024-08-28T00:00:00.000' AS DateTime), 19, 27, 33, 42, 48, 12)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1406, 70, CAST(N'2024-08-31T00:00:00.000' AS DateTime), 4, 5, 13, 32, 34, 9)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1407, 71, CAST(N'2024-09-04T00:00:00.000' AS DateTime), 5, 6, 19, 41, 44, 11)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1408, 72, CAST(N'2024-09-07T00:00:00.000' AS DateTime), 5, 6, 33, 41, 46, 7)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1409, 73, CAST(N'2024-09-11T00:00:00.000' AS DateTime), 1, 3, 5, 14, 46, 3)
+GO
+INSERT [dbo].[Jogos] ([IdJogo], [NumeroJogo], [Data], [Numero1], [Numero2], [Numero3], [Numero4], [Numero5], [NumeroSorte]) VALUES (1410, 74, CAST(N'2024-09-14T00:00:00.000' AS DateTime), 5, 17, 38, 39, 40, 3)
+GO
 SET IDENTITY_INSERT [dbo].[Jogos] OFF
 GO
