@@ -7,6 +7,9 @@ using System.Xml.Linq;
 using Totoloto.Properties;
 using System.Drawing;
 using Microsoft.EntityFrameworkCore;
+using static System.Windows.Forms.LinkLabel;
+using System.Windows.Forms;
+using System.Data;
 
 namespace Totoloto
 {
@@ -14,12 +17,14 @@ namespace Totoloto
     {
         public ITotolotoContextFactory totolotoContextFactory;
         public TotolotoContext totolotoContext;
+        public List<TotolotoRepository.Models.Configuration> configurations;
 
         public TotolotoForm(ITotolotoContextFactory totolotoContextFactory)
         {
             this.totolotoContextFactory = totolotoContextFactory;
             totolotoContext = totolotoContextFactory.CreateDbContext();
             InitializeComponent();
+            LoadConfiguraion();
         }
 
         private void Totoloto_Load(object sender, EventArgs e)
@@ -42,6 +47,8 @@ namespace Totoloto
                     !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasNumerosDaSorte)) ||
                     !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasLinhas)) ||
                     !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasColunas)) ||
+                    !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.SequenciaNumerosDoSorteioSorte)) ||
+                    !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasParImpar)) ||
                      totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Data < lastGame.Data))
                     enableUpdate = true;
             }
@@ -51,10 +58,17 @@ namespace Totoloto
                 enableUpdate = true;
             }
 
-            ChangeButtonsVisualization(!enableUpdate);
+            ChangeComponentsVisualization(!enableUpdate);
 
             btnAtualizarJogos.Visible = enableUpdate;
             btnAtualizarJogos.Enabled = enableUpdate;
+        }
+
+        private void LoadConfiguraion()
+        {
+            configurations = totolotoContext.Configurations.ToList();
+
+            dataGridViewConfiguration.DataSource = configurations;
         }
 
         private void btnAtualizarJogos_Click(object sender, EventArgs e)
@@ -64,7 +78,7 @@ namespace Totoloto
             UpdateStatistic();
 
             bool enableUpdate = false;
-            ChangeButtonsVisualization(!enableUpdate);
+            ChangeComponentsVisualization(!enableUpdate);
             btnAtualizarJogos.Visible = enableUpdate;
             btnAtualizarJogos.Enabled = enableUpdate;
             txtInformations.Text = "Jogos atualizados";
@@ -79,18 +93,20 @@ namespace Totoloto
             UpdateStatisticDrawNumbers();
             UpdateStatisticLines();
             UpdateStatisticColumns();
+            UpdateSequenceDrawNumbersAndLuckyNumbers();
+            UpdateStatisticsEvenOdd();
         }
 
-        private void UpdateStatisticLines()
+        private void UpdateStatisticsEvenOdd()
         {
-            var statisticLuckyNumbers = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasLinhas));
+            var statisticsEvenOdd = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasParImpar));
 
-            if (statisticLuckyNumbers == null)
+            if (statisticsEvenOdd == null)
             {
-                var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.EstatisticasLinhas), Data = new DateTime(1900, 1, 1) };
+                var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.EstatisticasParImpar), Data = new DateTime(1900, 1, 1) };
                 totolotoContext.EstatisticasNumerosUltimaData.Add(statistic);
                 totolotoContext.SaveChanges();
-                statisticLuckyNumbers = statistic;
+                statisticsEvenOdd = statistic;
             }
 
             var games = totolotoContext.Jogos.Include(x => x.Numero1Navigation)
@@ -98,7 +114,109 @@ namespace Totoloto
                                              .Include(x => x.Numero3Navigation)
                                              .Include(x => x.Numero4Navigation)
                                              .Include(x => x.Numero5Navigation)
-                                             .Where(j => j.Data > statisticLuckyNumbers.Data).OrderBy(x => x.Data).ToList();
+                                             .Where(j => j.Data > statisticsEvenOdd.Data).OrderBy(x => x.Data).ToList();
+
+            foreach (var game in games)
+            {
+                string parImpar = $"{GetEvenOddText(game.Numero1Navigation)}{GetEvenOddText(game.Numero2Navigation)}{GetEvenOddText(game.Numero3Navigation)}{GetEvenOddText(game.Numero4Navigation)}{GetEvenOddText(game.Numero5Navigation)}";
+
+                var estatisticasParImpars = totolotoContext.EstatisticasParImpars.FirstOrDefault(x => x.ParImpar == parImpar);
+
+                if (estatisticasParImpars == null)
+                {
+                    estatisticasParImpars = new EstatisticasParImpar { ParImpar = parImpar, Quantidade = 1 };
+                    totolotoContext.EstatisticasParImpars.Add(estatisticasParImpars);
+                    totolotoContext.SaveChanges();
+                }
+                else
+                {
+                    estatisticasParImpars.Quantidade += 1;
+                    totolotoContext.EstatisticasParImpars.Update(estatisticasParImpars);
+                    totolotoContext.SaveChanges();
+                }
+
+                statisticsEvenOdd.Data = game.Data;
+                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticsEvenOdd);
+                totolotoContext.SaveChanges();
+            }
+        }
+
+        private object GetEvenOddText(NumerosDoSorteio numerosDoSorteio)
+        {
+            if (numerosDoSorteio.Par)
+            {
+                return "P";
+            }
+            else if (numerosDoSorteio.Impar)
+            {
+                return "I";
+            }
+            else
+            {
+                throw new Exception("Número não é par nem ímpar");
+            }
+        }
+
+        private void UpdateSequenceDrawNumbersAndLuckyNumbers()
+        {
+            var statisticLuckyNumbers = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.SequenciaNumerosDoSorteioSorte));
+
+            if (statisticLuckyNumbers == null)
+            {
+                var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.SequenciaNumerosDoSorteioSorte), Data = new DateTime(1900, 1, 1) };
+                totolotoContext.EstatisticasNumerosUltimaData.Add(statistic);
+                totolotoContext.SaveChanges();
+                statisticLuckyNumbers = statistic;
+            }
+
+            var games = totolotoContext.Jogos.Where(j => j.Data > statisticLuckyNumbers.Data).OrderBy(x => x.Data).ToList();
+
+            foreach (var game in games)
+            {
+                List<int> numbers = new List<int> { game.Numero1, game.Numero2, game.Numero3, game.Numero4, game.Numero5 };
+
+                foreach (var number in numbers)
+                {
+                    var sequenciaNumerosDoSorteioSortes = totolotoContext.SequenciaNumerosDoSorteioSortes.FirstOrDefault(x => x.NumeroDoSorteio == number && x.NumeroDaSorte == game.NumeroSorte);
+
+                    if (sequenciaNumerosDoSorteioSortes == null)
+                    {
+                        sequenciaNumerosDoSorteioSortes = new SequenciaNumerosDoSorteioSorte { NumeroDoSorteio = number, NumeroDaSorte = game.NumeroSorte, Quantidade = 1 };
+                        totolotoContext.SequenciaNumerosDoSorteioSortes.Add(sequenciaNumerosDoSorteioSortes);
+                        totolotoContext.SaveChanges();
+                    }
+                    else
+                    {
+                        sequenciaNumerosDoSorteioSortes.Quantidade += 1;
+                        totolotoContext.SequenciaNumerosDoSorteioSortes.Update(sequenciaNumerosDoSorteioSortes);
+                        totolotoContext.SaveChanges();
+                    }
+                }
+
+                statisticLuckyNumbers.Data = game.Data;
+                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticLuckyNumbers);
+                totolotoContext.SaveChanges();
+            }
+        }
+
+        private void UpdateStatisticLines()
+        {
+            var statisticLines = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasLinhas));
+
+            if (statisticLines == null)
+            {
+                var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.EstatisticasLinhas), Data = new DateTime(1900, 1, 1) };
+                totolotoContext.EstatisticasNumerosUltimaData.Add(statistic);
+                totolotoContext.SaveChanges();
+                statisticLines = statistic;
+            }
+
+            var games = totolotoContext.Jogos.Include(x => x.Numero1Navigation)
+                                             .Include(x => x.Numero2Navigation)
+                                             .Include(x => x.Numero3Navigation)
+                                             .Include(x => x.Numero4Navigation)
+                                             .Include(x => x.Numero5Navigation)
+                                             .Where(j => j.Data > statisticLines.Data).OrderBy(x => x.Data).ToList();
 
             foreach (var game in games)
             {
@@ -119,22 +237,22 @@ namespace Totoloto
                     totolotoContext.SaveChanges();
                 }
 
-                statisticLuckyNumbers.Data = game.Data;
-                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticLuckyNumbers);
+                statisticLines.Data = game.Data;
+                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticLines);
                 totolotoContext.SaveChanges();
             }
         }
 
         private void UpdateStatisticColumns()
         {
-            var statisticLuckyNumbers = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasColunas));
+            var statisticColumns = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasColunas));
 
-            if (statisticLuckyNumbers == null)
+            if (statisticColumns == null)
             {
                 var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.EstatisticasColunas), Data = new DateTime(1900, 1, 1) };
                 totolotoContext.EstatisticasNumerosUltimaData.Add(statistic);
                 totolotoContext.SaveChanges();
-                statisticLuckyNumbers = statistic;
+                statisticColumns = statistic;
             }
 
             var games = totolotoContext.Jogos.Include(x => x.Numero1Navigation)
@@ -142,7 +260,7 @@ namespace Totoloto
                                              .Include(x => x.Numero3Navigation)
                                              .Include(x => x.Numero4Navigation)
                                              .Include(x => x.Numero5Navigation)
-                                             .Where(j => j.Data > statisticLuckyNumbers.Data).OrderBy(x => x.Data).ToList();
+                                             .Where(j => j.Data > statisticColumns.Data).OrderBy(x => x.Data).ToList();
 
             foreach (var game in games)
             {
@@ -163,8 +281,8 @@ namespace Totoloto
                     totolotoContext.SaveChanges();
                 }
 
-                statisticLuckyNumbers.Data = game.Data;
-                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticLuckyNumbers);
+                statisticColumns.Data = game.Data;
+                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticColumns);
                 totolotoContext.SaveChanges();
             }
         }
@@ -523,11 +641,7 @@ namespace Totoloto
             return jogos;
         }
 
-        private void btnGerarJogo_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void ChangeButtonsVisualization(bool enabled)
+        private void ChangeComponentsVisualization(bool enabled)
         {
             foreach (var btn in this.Controls.OfType<Button>())
             {
@@ -537,6 +651,50 @@ namespace Totoloto
                     btn.Visible = enabled;
                 }
             }
+
+            foreach (var tab in this.Controls.OfType<TabControl>())
+            {
+                if (tab != null)
+                {
+                    tab.Enabled = enabled;
+                    tab.Visible = enabled;
+                }
+            }
+        }
+
+        private void btnGenerateGame_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnAddNewRow_Click(object sender, EventArgs e)
+        {
+            configurations.Add(new TotolotoRepository.Models.Configuration());
+            dataGridViewConfiguration.DataSource = null;
+            dataGridViewConfiguration.DataSource = configurations;
+        }
+
+        private void btnSaveRows_Click(object sender, EventArgs e)
+        {
+            foreach (var configuration in configurations)
+            {
+                if (!string.IsNullOrWhiteSpace(configuration.ConfigurationKey) && !string.IsNullOrWhiteSpace(configuration.ConfigurationValue))
+                {
+                    if (configuration.ConfigurationId > 0)
+                    {
+                        totolotoContext.Configurations.Update(configuration);
+                        totolotoContext.SaveChanges();
+                    }
+                    else
+                    {
+                        totolotoContext.Configurations.Add(configuration);
+                        totolotoContext.SaveChanges();
+                    }
+                }
+            }
+
+            configurations = totolotoContext.Configurations.ToList();
+            dataGridViewConfiguration.DataSource = null;
+            dataGridViewConfiguration.DataSource = configurations;
         }
     }
 }

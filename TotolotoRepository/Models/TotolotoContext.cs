@@ -15,6 +15,8 @@ public partial class TotolotoContext : DbContext
 
     public virtual DbSet<Coluna> Colunas { get; set; }
 
+    public virtual DbSet<Configuration> Configurations { get; set; }
+
     public virtual DbSet<EstatisticasColuna> EstatisticasColunas { get; set; }
 
     public virtual DbSet<EstatisticasLinha> EstatisticasLinhas { get; set; }
@@ -24,6 +26,8 @@ public partial class TotolotoContext : DbContext
     public virtual DbSet<EstatisticasNumerosDoSorteio> EstatisticasNumerosDoSorteios { get; set; }
 
     public virtual DbSet<EstatisticasNumerosUltimaDatum> EstatisticasNumerosUltimaData { get; set; }
+
+    public virtual DbSet<EstatisticasParImpar> EstatisticasParImpars { get; set; }
 
     public virtual DbSet<Jogo> Jogos { get; set; }
 
@@ -37,6 +41,8 @@ public partial class TotolotoContext : DbContext
 
     public virtual DbSet<SequenciaNumerosDoSorteio> SequenciaNumerosDoSorteios { get; set; }
 
+    public virtual DbSet<SequenciaNumerosDoSorteioSorte> SequenciaNumerosDoSorteioSortes { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Coluna>(entity =>
@@ -49,6 +55,14 @@ public partial class TotolotoContext : DbContext
                 .HasForeignKey<Coluna>(d => d.Numero)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Colunas_Colunas");
+        });
+
+        modelBuilder.Entity<Configuration>(entity =>
+        {
+            entity.Property(e => e.ConfigurationKey)
+                .IsRequired()
+                .HasMaxLength(50);
+            entity.Property(e => e.ConfigurationValue).IsRequired();
         });
 
         modelBuilder.Entity<EstatisticasColuna>(entity =>
@@ -101,6 +115,15 @@ public partial class TotolotoContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Data).HasColumnType("datetime");
+        });
+
+        modelBuilder.Entity<EstatisticasParImpar>(entity =>
+        {
+            entity.ToTable("EstatisticasParImpar");
+
+            entity.Property(e => e.ParImpar)
+                .IsRequired()
+                .HasMaxLength(5);
         });
 
         modelBuilder.Entity<Jogo>(entity =>
@@ -202,6 +225,23 @@ public partial class TotolotoContext : DbContext
                 .HasForeignKey(d => d.NumeroMesmoJogo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_SequenciaNumerosDoSorteio_NumerosDoSorteio1");
+        });
+
+        modelBuilder.Entity<SequenciaNumerosDoSorteioSorte>(entity =>
+        {
+            entity.HasKey(e => new { e.NumeroDoSorteio, e.NumeroDaSorte });
+
+            entity.ToTable("SequenciaNumerosDoSorteioSorte");
+
+            entity.HasOne(d => d.NumeroDaSorteNavigation).WithMany(p => p.SequenciaNumerosDoSorteioSortes)
+                .HasForeignKey(d => d.NumeroDaSorte)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SequenciaNumerosDoSorteioSorte_NumerosDaSorte");
+
+            entity.HasOne(d => d.NumeroDoSorteioNavigation).WithMany(p => p.SequenciaNumerosDoSorteioSortes)
+                .HasForeignKey(d => d.NumeroDoSorteio)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SequenciaNumerosDoSorteioSorte_NumerosDoSorteio");
         });
 
         OnModelCreatingGeneratedProcedures(modelBuilder);

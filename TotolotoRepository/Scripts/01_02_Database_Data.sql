@@ -3312,6 +3312,1280 @@ INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]
 GO
 INSERT [dbo].[SequenciaNumerosDaSorte] ([Numero], [NumeroAnterior], [Quantidade]) VALUES (13, 13, 10)
 GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 1, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 2, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 3, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 4, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 5, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 7, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 9, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 10, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 11, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 12, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (1, 13, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 1, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 2, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 4, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 5, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 7, 19)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 8, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 9, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 10, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 11, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 12, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (2, 13, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 1, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 2, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 3, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 4, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 5, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 6, 1)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 7, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 8, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 9, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 10, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 11, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 12, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (3, 13, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 1, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 2, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 3, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 4, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 7, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 8, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 9, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 10, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (4, 13, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 1, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 2, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 3, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 4, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 5, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 6, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 11, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 12, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (5, 13, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 2, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 4, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 5, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 7, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 8, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 9, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 10, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (6, 13, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 2, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 3, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 4, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 5, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 6, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 7, 19)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 8, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 9, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 11, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (7, 13, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 1, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 2, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 3, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 4, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 5, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 7, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 8, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 9, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 10, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 12, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (8, 13, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 1, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 3, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 4, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 5, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 6, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 7, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 8, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 9, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 11, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 12, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (9, 13, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 1, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 2, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 3, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 4, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 5, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 6, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 7, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 8, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 10, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 12, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (10, 13, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 2, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 3, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 4, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 5, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 6, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 8, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 9, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 10, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (11, 13, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 2, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 3, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 4, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 5, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 8, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 10, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 11, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 12, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (12, 13, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 1, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 2, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 3, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 4, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 6, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 7, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 8, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 9, 21)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 10, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 12, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (13, 13, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 1, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 2, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 3, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 4, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 5, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 6, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 7, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 8, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 10, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 11, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 12, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (14, 13, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 1, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 3, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 4, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 5, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 7, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 8, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 9, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 10, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (15, 13, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 1, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 2, 19)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 3, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 4, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 5, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 8, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 9, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (16, 13, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 1, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 2, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 3, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 4, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 5, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 6, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 8, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 9, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 10, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 11, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (17, 13, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 1, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 2, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 4, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 5, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 6, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 8, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 9, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 10, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 11, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 12, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (18, 13, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 1, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 2, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 3, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 4, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 5, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 7, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 8, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 10, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 11, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 12, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (19, 13, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 1, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 2, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 3, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 4, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 5, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 6, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 7, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 8, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 10, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 11, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 12, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (20, 13, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 1, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 3, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 4, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 5, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 8, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 11, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 12, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (21, 13, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 2, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 4, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 5, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 6, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 7, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 8, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 9, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 10, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 11, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 12, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (22, 13, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 3, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 4, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 5, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 6, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 7, 23)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 8, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 10, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (23, 13, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 1, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 2, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 3, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 4, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 5, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 6, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 7, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 8, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 9, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 10, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (24, 13, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 1, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 2, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 3, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 4, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 5, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 7, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 8, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 9, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 10, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 11, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 12, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (25, 13, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 1, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 2, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 4, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 5, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 7, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 8, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 9, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 10, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 12, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (26, 13, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 2, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 3, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 4, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 5, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 6, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 7, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 8, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 10, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 11, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 12, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (27, 13, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 1, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 2, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 3, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 4, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 5, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 6, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 9, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 10, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 11, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 12, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (28, 13, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 1, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 2, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 3, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 4, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 7, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 8, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 10, 23)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 12, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (29, 13, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 2, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 3, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 4, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 5, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 6, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 7, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 8, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 9, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 10, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 11, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 12, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (30, 13, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 1, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 2, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 3, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 4, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 5, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 6, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 8, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 10, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 11, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (31, 13, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 1, 22)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 2, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 4, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 5, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 6, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 8, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 10, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 11, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 12, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (32, 13, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 1, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 2, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 3, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 4, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 5, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 6, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 8, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 12, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (33, 13, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 1, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 3, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 4, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 5, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 6, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 7, 20)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 8, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 9, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 10, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (34, 13, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 1, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 4, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 5, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 6, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 7, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 8, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 10, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 11, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 12, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (35, 13, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 1, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 2, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 3, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 4, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 5, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 6, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 7, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 8, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 9, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 10, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 12, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (36, 13, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 1, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 2, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 3, 21)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 4, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 5, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 6, 3)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 7, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 8, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 9, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 10, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 11, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (37, 13, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 1, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 2, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 3, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 4, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 5, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 6, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 7, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 8, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 9, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 10, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 11, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (38, 13, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 1, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 2, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 4, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 5, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 6, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 7, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 8, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 9, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 10, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 12, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (39, 13, 4)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 1, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 2, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 3, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 4, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 5, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 6, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 7, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 8, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 9, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 10, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 12, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (40, 13, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 2, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 3, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 4, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 5, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 6, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 7, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 8, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 9, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 12, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (41, 13, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 1, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 2, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 3, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 4, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 6, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 8, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 9, 19)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (42, 13, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 1, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 2, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 3, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 4, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 8, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 10, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 11, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 12, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (43, 13, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 2, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 4, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 5, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 6, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 7, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 8, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 9, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 10, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 11, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 12, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (44, 13, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 1, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 2, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 4, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 5, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 6, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 8, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 9, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 10, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 11, 5)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (45, 13, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 1, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 2, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 3, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 4, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 5, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 6, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 7, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 8, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 9, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 10, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 11, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (46, 13, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 1, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 2, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 3, 17)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 4, 20)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 5, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 6, 6)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 8, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 9, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 10, 13)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 11, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 12, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (47, 13, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 1, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 2, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 3, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 4, 18)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 5, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 6, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 7, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 8, 15)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 9, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 10, 11)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 11, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 12, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (48, 13, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 1, 14)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 2, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 3, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 4, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 5, 8)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 6, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 7, 7)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 8, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 9, 16)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 10, 12)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 11, 10)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 12, 9)
+GO
+INSERT [dbo].[SequenciaNumerosDoSorteioSorte] ([NumeroDoSorteio], [NumeroDaSorte], [Quantidade]) VALUES (49, 13, 10)
+GO
 INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (1, 1)
 GO
 INSERT [dbo].[Colunas] ([Numero], [NumeroColuna]) VALUES (2, 2)
@@ -8310,6 +9584,18 @@ INSERT [dbo].[SequenciaNumerosDoSorteio] ([Numero], [NumeroMesmoJogo], [Quantida
 GO
 INSERT [dbo].[SequenciaNumerosDoSorteio] ([Numero], [NumeroMesmoJogo], [Quantidade]) VALUES (49, 48, 13)
 GO
+SET IDENTITY_INSERT [dbo].[Configurations] ON 
+GO
+INSERT [dbo].[Configurations] ([ConfigurationId], [ConfigurationKey], [ConfigurationValue]) VALUES (1, N'MinLineValue', N'3')
+GO
+INSERT [dbo].[Configurations] ([ConfigurationId], [ConfigurationKey], [ConfigurationValue]) VALUES (2, N'MinColumnValue', N'1')
+GO
+INSERT [dbo].[Configurations] ([ConfigurationId], [ConfigurationKey], [ConfigurationValue]) VALUES (3, N'MinEvenOddValue', N'40')
+GO
+INSERT [dbo].[Configurations] ([ConfigurationId], [ConfigurationKey], [ConfigurationValue]) VALUES (4, N'MinLuckyNumberValue', N'5')
+GO
+SET IDENTITY_INSERT [dbo].[Configurations] OFF
+GO
 SET IDENTITY_INSERT [dbo].[EstatisticasColunas] ON 
 GO
 INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1, N'56334', 1)
@@ -11705,4 +12991,76 @@ GO
 INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasNumerosDaSorte', CAST(N'2024-09-14T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasNumerosDoSorteio', CAST(N'2024-09-14T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasParImpar', CAST(N'2024-09-14T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'SequenciaNumerosDoSorteioSorte', CAST(N'2024-09-14T00:00:00.000' AS DateTime))
+GO
+SET IDENTITY_INSERT [dbo].[EstatisticasParImpar] ON 
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (1, N'IPPIP', 47)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (2, N'PPIII', 41)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (3, N'IPIPI', 46)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (4, N'PIIPP', 38)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (5, N'PIPIP', 53)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (6, N'PPIIP', 34)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (7, N'PPPIP', 38)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (8, N'PIIPI', 43)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (9, N'IPPPP', 43)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (10, N'IPPII', 50)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (11, N'IIPPI', 42)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (12, N'PPIPI', 44)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (13, N'IIIPI', 46)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (14, N'PPPPP', 34)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (15, N'IPIPP', 55)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (16, N'IIIIP', 44)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (17, N'IIPII', 58)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (18, N'IIPPP', 48)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (19, N'PIIIP', 36)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (20, N'IIPIP', 56)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (21, N'PIPPI', 55)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (22, N'IPIIP', 47)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (23, N'PIPPP', 39)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (24, N'IPPPI', 49)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (25, N'PPPII', 45)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (26, N'PIPII', 53)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (27, N'IIIPP', 27)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (28, N'PIIII', 45)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (29, N'IIIII', 30)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (30, N'PPPPI', 37)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (31, N'PPIPP', 45)
+GO
+INSERT [dbo].[EstatisticasParImpar] ([EstatisticasParImparId], [ParImpar], [Quantidade]) VALUES (32, N'IPIII', 42)
+GO
+SET IDENTITY_INSERT [dbo].[EstatisticasParImpar] OFF
 GO

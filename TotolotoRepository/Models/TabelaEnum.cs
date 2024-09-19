@@ -11,6 +11,8 @@ namespace TotolotoRepository.Models
         EstatisticasNumerosDaSorte,
         EstatisticasNumerosDoSorteio,
         EstatisticasLinhas,
-        EstatisticasColunas
+        EstatisticasColunas,
+        SequenciaNumerosDoSorteioSorte,
+        EstatisticasParImpar
     }
 }

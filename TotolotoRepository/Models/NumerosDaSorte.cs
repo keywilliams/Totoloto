@@ -20,4 +20,6 @@ public partial class NumerosDaSorte
     public virtual ICollection<SequenciaNumerosDaSorte> SequenciaNumerosDaSorteNumeroAnteriorNavigations { get; set; } = new List<SequenciaNumerosDaSorte>();
 
     public virtual ICollection<SequenciaNumerosDaSorte> SequenciaNumerosDaSorteNumeroNavigations { get; set; } = new List<SequenciaNumerosDaSorte>();
+
+    public virtual ICollection<SequenciaNumerosDoSorteioSorte> SequenciaNumerosDoSorteioSortes { get; set; } = new List<SequenciaNumerosDoSorteioSorte>();
 }

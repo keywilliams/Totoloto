@@ -44,4 +44,6 @@ public partial class NumerosDoSorteio
     public virtual ICollection<SequenciaNumerosDoSorteio> SequenciaNumerosDoSorteioNumeroMesmoJogoNavigations { get; set; } = new List<SequenciaNumerosDoSorteio>();
 
     public virtual ICollection<SequenciaNumerosDoSorteio> SequenciaNumerosDoSorteioNumeroNavigations { get; set; } = new List<SequenciaNumerosDoSorteio>();
+
+    public virtual ICollection<SequenciaNumerosDoSorteioSorte> SequenciaNumerosDoSorteioSortes { get; set; } = new List<SequenciaNumerosDoSorteioSorte>();
 }
