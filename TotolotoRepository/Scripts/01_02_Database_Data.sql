@@ -8310,6 +8310,3398 @@ INSERT [dbo].[SequenciaNumerosDoSorteio] ([Numero], [NumeroMesmoJogo], [Quantida
 GO
 INSERT [dbo].[SequenciaNumerosDoSorteio] ([Numero], [NumeroMesmoJogo], [Quantidade]) VALUES (49, 48, 13)
 GO
+SET IDENTITY_INSERT [dbo].[EstatisticasColunas] ON 
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1, N'56334', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (2, N'65766', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (3, N'37536', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (4, N'13472', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (5, N'21476', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (6, N'25156', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (7, N'26312', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (8, N'22145', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (9, N'34372', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (10, N'66335', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (11, N'52677', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (12, N'41371', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (13, N'11333', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (14, N'45654', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (15, N'71672', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (16, N'72763', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (17, N'72457', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (18, N'16245', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (19, N'64625', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (20, N'54616', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (21, N'25152', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (22, N'16343', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (23, N'65475', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (24, N'12726', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (25, N'37366', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (26, N'67315', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (27, N'25756', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (28, N'11524', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (29, N'73117', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (30, N'51557', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (31, N'57133', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (32, N'45337', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (33, N'25277', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (34, N'31452', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (35, N'45223', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (36, N'23455', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (37, N'76417', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (38, N'37523', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (39, N'56431', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (40, N'31557', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (41, N'35362', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (42, N'31454', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (43, N'51255', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (44, N'73245', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (45, N'51273', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (46, N'14133', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (47, N'41473', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (48, N'37426', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (49, N'47627', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (50, N'25613', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (51, N'63121', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (52, N'61417', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (53, N'24132', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (54, N'24253', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (55, N'25172', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (56, N'61235', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (57, N'71157', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (58, N'51225', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (59, N'34745', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (60, N'57257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (61, N'65474', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (62, N'23356', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (63, N'26566', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (64, N'27456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (65, N'67426', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (66, N'37272', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (67, N'73663', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (68, N'22267', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (69, N'72134', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (70, N'13212', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (71, N'14216', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (72, N'36232', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (73, N'64571', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (74, N'55715', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (75, N'24171', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (76, N'43476', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (77, N'24372', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (78, N'12767', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (79, N'76563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (80, N'56576', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (81, N'16631', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (82, N'44612', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (83, N'22533', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (84, N'62257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (85, N'64445', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (86, N'56146', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (87, N'13537', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (88, N'37267', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (89, N'45717', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (90, N'32365', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (91, N'12111', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (92, N'17517', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (93, N'72261', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (94, N'66661', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (95, N'67452', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (96, N'32416', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (97, N'51227', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (98, N'45724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (99, N'12424', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (100, N'45524', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (101, N'34723', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (102, N'77713', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (103, N'14263', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (104, N'42552', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (105, N'57617', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (106, N'27632', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (107, N'34657', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (108, N'14744', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (109, N'47677', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (110, N'24316', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (111, N'27144', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (112, N'31225', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (113, N'17365', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (114, N'37345', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (115, N'47715', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (116, N'71674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (117, N'46651', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (118, N'34567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (119, N'21566', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (120, N'55645', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (121, N'26736', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (122, N'53267', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (123, N'46156', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (124, N'22513', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (125, N'12371', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (126, N'24352', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (127, N'15237', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (128, N'62475', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (129, N'27433', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (130, N'52637', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (131, N'13275', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (132, N'25612', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (133, N'47327', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (134, N'14457', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (135, N'15125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (136, N'15234', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (137, N'66426', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (138, N'24156', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (139, N'52353', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (140, N'36633', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (141, N'35447', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (142, N'12477', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (143, N'34572', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (144, N'26367', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (145, N'42723', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (146, N'57415', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (147, N'13434', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (148, N'43714', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (149, N'24274', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (150, N'24437', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (151, N'74773', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (152, N'77214', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (153, N'41646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (154, N'16356', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (155, N'12123', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (156, N'71523', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (157, N'23215', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (158, N'75456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (159, N'13752', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (160, N'44655', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (161, N'43615', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (162, N'16365', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (163, N'23154', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (164, N'62662', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (165, N'37746', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (166, N'22514', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (167, N'74315', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (168, N'66357', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (169, N'14563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (170, N'24567', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (171, N'17647', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (172, N'67457', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (173, N'23136', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (174, N'64766', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (175, N'61362', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (176, N'66615', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (177, N'34772', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (178, N'12546', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (179, N'54636', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (180, N'23112', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (181, N'13132', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (182, N'27147', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (183, N'23475', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (184, N'47156', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (185, N'22754', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (186, N'25456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (187, N'15162', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (188, N'15674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (189, N'16277', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (190, N'15646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (191, N'63647', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (192, N'73447', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (193, N'45243', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (194, N'72434', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (195, N'13236', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (196, N'34347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (197, N'34242', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (198, N'54256', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (199, N'27515', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (200, N'36252', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (201, N'42347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (202, N'76752', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (203, N'54634', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (204, N'24225', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (205, N'23156', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (206, N'12323', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (207, N'34654', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (208, N'73415', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (209, N'37525', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (210, N'45777', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (211, N'72225', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (212, N'62541', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (213, N'35571', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (214, N'23377', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (215, N'62474', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (216, N'57557', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (217, N'67162', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (218, N'22416', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (219, N'21525', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (220, N'21364', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (221, N'56161', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (222, N'55664', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (223, N'63535', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (224, N'13265', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (225, N'67324', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (226, N'45736', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (227, N'65431', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (228, N'27173', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (229, N'72571', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (230, N'33435', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (231, N'65734', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (232, N'11765', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (233, N'45322', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (234, N'57125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (235, N'71414', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (236, N'43437', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (237, N'26764', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (238, N'17126', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (239, N'47113', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (240, N'15615', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (241, N'34271', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (242, N'35767', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (243, N'21211', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (244, N'45615', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (245, N'47533', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (246, N'21655', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (247, N'31724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (248, N'75245', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (249, N'51413', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (250, N'36756', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (251, N'51556', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (252, N'25512', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (253, N'72636', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (254, N'75132', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (255, N'45747', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (256, N'23434', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (257, N'34575', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (258, N'57346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (259, N'26554', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (260, N'16351', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (261, N'24131', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (262, N'51435', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (263, N'36347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (264, N'12555', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (265, N'26336', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (266, N'45141', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (267, N'13427', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (268, N'26512', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (269, N'13222', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (270, N'34565', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (271, N'24346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (272, N'54731', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (273, N'25136', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (274, N'55243', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (275, N'16463', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (276, N'46235', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (277, N'64676', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (278, N'25567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (279, N'32316', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (280, N'43716', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (281, N'63566', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (282, N'56742', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (283, N'17421', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (284, N'26477', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (285, N'14633', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (286, N'74533', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (287, N'74237', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (288, N'23151', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (289, N'14556', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (290, N'74257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (291, N'42572', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (292, N'26265', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (293, N'44657', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (294, N'65677', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (295, N'43767', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (296, N'25323', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (297, N'47345', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (298, N'45256', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (299, N'27523', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (300, N'14535', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (301, N'55445', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (302, N'71343', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (303, N'13447', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (304, N'64251', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (305, N'34432', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (306, N'12414', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (307, N'14567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (308, N'13432', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (309, N'35325', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (310, N'67631', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (311, N'32355', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (312, N'33471', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (313, N'21127', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (314, N'31654', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (315, N'25423', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (316, N'55724', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (317, N'14237', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (318, N'26363', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (319, N'47466', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (320, N'35457', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (321, N'61656', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (322, N'26377', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (323, N'13552', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (324, N'51637', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (325, N'71762', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (326, N'75236', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (327, N'73163', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (328, N'17357', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (329, N'54547', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (330, N'42124', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (331, N'73376', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (332, N'16541', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (333, N'24744', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (334, N'52357', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (335, N'21474', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (336, N'31445', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (337, N'37514', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (338, N'27364', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (339, N'13461', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (340, N'61352', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (341, N'12375', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (342, N'63657', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (343, N'13563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (344, N'16437', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (345, N'15724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (346, N'46561', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (347, N'23233', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (348, N'46675', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (349, N'76136', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (350, N'12634', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (351, N'63626', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (352, N'31327', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (353, N'12516', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (354, N'47326', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (355, N'21237', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (356, N'51456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (357, N'34362', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (358, N'15655', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (359, N'24736', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (360, N'27323', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (361, N'66342', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (362, N'23545', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (363, N'27721', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (364, N'26371', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (365, N'12525', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (366, N'45436', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (367, N'35573', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (368, N'54437', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (369, N'74566', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (370, N'34741', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (371, N'77256', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (372, N'75633', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (373, N'11747', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (374, N'71513', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (375, N'74612', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (376, N'23371', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (377, N'24362', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (378, N'26135', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (379, N'54151', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (380, N'31441', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (381, N'16416', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (382, N'65257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (383, N'74561', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (384, N'26316', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (385, N'27345', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (386, N'13765', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (387, N'36777', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (388, N'54242', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (389, N'71216', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (390, N'12361', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (391, N'66665', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (392, N'12367', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (393, N'33456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (394, N'15517', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (395, N'11154', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (396, N'23256', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (397, N'26731', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (398, N'24261', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (399, N'55567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (400, N'34677', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (401, N'21712', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (402, N'56374', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (403, N'46232', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (404, N'35225', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (405, N'16265', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (406, N'75674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (407, N'74447', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (408, N'23651', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (409, N'24757', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (410, N'37513', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (411, N'74532', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (412, N'61443', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (413, N'44125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (414, N'47635', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (415, N'16446', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (416, N'45464', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (417, N'33563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (418, N'56127', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (419, N'45722', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (420, N'44672', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (421, N'43715', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (422, N'64624', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (423, N'56226', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (424, N'12135', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (425, N'62263', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (426, N'12674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (427, N'62466', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (428, N'26242', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (429, N'74417', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (430, N'14127', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (431, N'21263', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (432, N'13444', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (433, N'75246', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (434, N'27275', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (435, N'71464', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (436, N'16771', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (437, N'77124', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (438, N'73534', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (439, N'14736', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (440, N'67436', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (441, N'45611', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (442, N'23446', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (443, N'15124', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (444, N'11115', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (445, N'35722', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (446, N'34466', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (447, N'23634', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (448, N'15616', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (449, N'42323', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (450, N'33673', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (451, N'15633', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (452, N'74767', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (453, N'16664', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (454, N'65425', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (455, N'23161', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (456, N'67274', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (457, N'72322', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (458, N'32366', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (459, N'13276', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (460, N'62427', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (461, N'72222', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (462, N'55614', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (463, N'12171', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (464, N'15434', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (465, N'56365', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (466, N'31267', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (467, N'23767', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (468, N'25175', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (469, N'24664', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (470, N'45342', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (471, N'26626', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (472, N'55552', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (473, N'76123', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (474, N'31335', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (475, N'61667', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (476, N'34354', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (477, N'32523', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (478, N'14276', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (479, N'67347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (480, N'42334', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (481, N'75323', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (482, N'53273', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (483, N'21563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (484, N'33162', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (485, N'15115', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (486, N'55744', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (487, N'57137', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (488, N'46556', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (489, N'37417', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (490, N'13467', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (491, N'22524', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (492, N'35746', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (493, N'31567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (494, N'72412', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (495, N'27775', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (496, N'12725', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (497, N'11256', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (498, N'21156', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (499, N'27327', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (500, N'47124', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (501, N'57374', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (502, N'46254', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (503, N'26345', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (504, N'13674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (505, N'16146', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (506, N'72576', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (507, N'36352', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (508, N'11514', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (509, N'52116', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (510, N'63412', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (511, N'27765', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (512, N'22424', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (513, N'16513', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (514, N'75313', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (515, N'42636', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (516, N'66724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (517, N'11674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (518, N'12467', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (519, N'52153', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (520, N'46467', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (521, N'42146', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (522, N'73566', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (523, N'26666', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (524, N'31275', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (525, N'54557', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (526, N'74254', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (527, N'25767', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (528, N'61437', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (529, N'61463', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (530, N'11626', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (531, N'41257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (532, N'22462', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (533, N'47262', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (534, N'27631', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (535, N'73451', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (536, N'25675', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (537, N'71724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (538, N'27314', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (539, N'14236', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (540, N'46274', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (541, N'21732', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (542, N'15311', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (543, N'36346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (544, N'24541', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (545, N'67112', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (546, N'24651', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (547, N'13535', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (548, N'47246', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (549, N'11267', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (550, N'17625', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (551, N'43345', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (552, N'54656', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (553, N'32737', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (554, N'62172', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (555, N'56427', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (556, N'46735', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (557, N'25247', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (558, N'37455', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (559, N'61735', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (560, N'35514', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (561, N'15355', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (562, N'53425', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (563, N'63643', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (564, N'64646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (565, N'43751', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (566, N'13223', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (567, N'13647', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (568, N'61673', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (569, N'34211', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (570, N'56155', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (571, N'47157', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (572, N'12312', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (573, N'15464', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (574, N'41417', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (575, N'73576', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (576, N'12633', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (577, N'54514', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (578, N'41455', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (579, N'47453', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (580, N'46145', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (581, N'46137', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (582, N'27324', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (583, N'64535', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (584, N'22543', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (585, N'13251', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (586, N'73761', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (587, N'13623', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (588, N'16127', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (589, N'62727', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (590, N'17145', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (591, N'11324', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (592, N'45116', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (593, N'72437', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (594, N'53663', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (595, N'44746', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (596, N'53445', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (597, N'42647', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (598, N'26174', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (599, N'34623', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (600, N'71314', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (601, N'35264', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (602, N'12511', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (603, N'51116', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (604, N'36154', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (605, N'24721', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (606, N'42547', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (607, N'65127', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (608, N'13465', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (609, N'72725', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (610, N'55461', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (611, N'34146', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (612, N'45362', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (613, N'71136', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (614, N'15726', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (615, N'13627', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (616, N'25232', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (617, N'16342', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (618, N'17646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (619, N'61244', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (620, N'74547', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (621, N'27215', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (622, N'65375', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (623, N'41444', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (624, N'77736', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (625, N'67772', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (626, N'41364', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (627, N'32315', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (628, N'13635', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (629, N'44466', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (630, N'61734', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (631, N'63435', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (632, N'67715', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (633, N'54517', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (634, N'24433', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (635, N'24467', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (636, N'66573', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (637, N'24344', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (638, N'56777', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (639, N'66272', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (640, N'53354', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (641, N'23744', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (642, N'42362', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (643, N'71257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (644, N'31745', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (645, N'41353', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (646, N'53757', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (647, N'22275', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (648, N'51256', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (649, N'67237', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (650, N'77135', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (651, N'47344', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (652, N'67624', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (653, N'63613', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (654, N'62523', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (655, N'12242', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (656, N'74544', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (657, N'52656', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (658, N'34762', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (659, N'52312', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (660, N'63741', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (661, N'72674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (662, N'46725', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (663, N'61724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (664, N'56263', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (665, N'43573', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (666, N'55121', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (667, N'31434', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (668, N'43577', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (669, N'24615', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (670, N'46346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (671, N'11471', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (672, N'13614', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (673, N'25362', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (674, N'31574', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (675, N'23473', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (676, N'34562', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (677, N'44624', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (678, N'63124', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (679, N'45327', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (680, N'17143', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (681, N'25625', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (682, N'24524', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (683, N'22426', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (684, N'14361', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (685, N'14246', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (686, N'43456', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (687, N'45624', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (688, N'72254', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (689, N'56364', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (690, N'37415', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (691, N'53131', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (692, N'75646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (693, N'23646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (694, N'36174', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (695, N'35134', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (696, N'14117', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (697, N'66577', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (698, N'75137', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (699, N'71521', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (700, N'52216', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (701, N'47512', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (702, N'47154', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (703, N'32373', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (704, N'76734', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (705, N'13572', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (706, N'12366', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (707, N'42336', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (708, N'57517', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (709, N'45525', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (710, N'51152', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (711, N'73673', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (712, N'73753', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (713, N'63636', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (714, N'16675', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (715, N'16453', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (716, N'42315', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (717, N'55431', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (718, N'71546', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (719, N'14235', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (720, N'52112', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (721, N'47745', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (722, N'41452', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (723, N'51125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (724, N'12476', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (725, N'21366', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (726, N'14735', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (727, N'16641', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (728, N'23323', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (729, N'43776', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (730, N'32126', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (731, N'67141', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (732, N'23235', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (733, N'66732', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (734, N'26766', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (735, N'57547', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (736, N'24434', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (737, N'72545', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (738, N'17763', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (739, N'51554', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (740, N'71617', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (741, N'55347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (742, N'21763', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (743, N'31231', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (744, N'76513', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (745, N'12716', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (746, N'61412', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (747, N'15257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (748, N'42316', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (749, N'72472', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (750, N'54347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (751, N'23735', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (752, N'26167', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (753, N'33342', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (754, N'51535', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (755, N'52674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (756, N'11724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (757, N'42527', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (758, N'36646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (759, N'27161', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (760, N'17527', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (761, N'13433', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (762, N'37617', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (763, N'71265', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (764, N'77227', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (765, N'32333', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (766, N'27564', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (767, N'12717', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (768, N'34561', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (769, N'63323', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (770, N'52523', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (771, N'65142', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (772, N'32672', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (773, N'57136', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (774, N'55232', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (775, N'34316', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (776, N'13332', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (777, N'64232', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (778, N'72461', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (779, N'52356', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (780, N'35131', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (781, N'54776', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (782, N'53155', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (783, N'52534', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (784, N'73735', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (785, N'46527', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (786, N'32451', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (787, N'34527', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (788, N'76227', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (789, N'23436', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (790, N'42476', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (791, N'53576', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (792, N'76146', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (793, N'11773', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (794, N'32235', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (795, N'31251', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (796, N'37156', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (797, N'43524', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (798, N'31162', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (799, N'51145', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (800, N'55745', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (801, N'46755', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (802, N'24745', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (803, N'15571', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (804, N'53614', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (805, N'67446', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (806, N'11434', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (807, N'62344', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (808, N'53411', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (809, N'21346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (810, N'24537', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (811, N'76611', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (812, N'61317', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (813, N'42713', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (814, N'51233', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (815, N'52527', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (816, N'64644', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (817, N'72774', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (818, N'37171', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (819, N'52567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (820, N'13245', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (821, N'34376', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (822, N'13353', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (823, N'67516', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (824, N'33155', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (825, N'46642', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (826, N'45174', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (827, N'11735', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (828, N'65413', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (829, N'36537', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (830, N'34571', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (831, N'24154', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (832, N'22223', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (833, N'13534', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (834, N'23474', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (835, N'22624', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (836, N'44776', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (837, N'46341', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (838, N'46325', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (839, N'12661', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (840, N'75464', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (841, N'25615', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (842, N'44511', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (843, N'41543', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (844, N'54122', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (845, N'26153', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (846, N'66337', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (847, N'35227', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (848, N'56125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (849, N'67515', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (850, N'25112', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (851, N'62355', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (852, N'34415', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (853, N'44651', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (854, N'43724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (855, N'67757', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (856, N'17534', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (857, N'11366', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (858, N'64667', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (859, N'53436', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (860, N'24275', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (861, N'55722', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (862, N'67251', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (863, N'26627', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (864, N'63142', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (865, N'12322', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (866, N'16415', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (867, N'73414', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (868, N'24436', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (869, N'26734', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (870, N'43235', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (871, N'27467', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (872, N'54673', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (873, N'46371', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (874, N'16764', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (875, N'63474', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (876, N'32766', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (877, N'26646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (878, N'75376', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (879, N'51437', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (880, N'15521', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (881, N'14227', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (882, N'55124', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (883, N'33747', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (884, N'61546', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (885, N'76315', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (886, N'17452', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (887, N'35652', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (888, N'16326', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (889, N'25472', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (890, N'11131', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (891, N'61545', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (892, N'14324', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (893, N'33557', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (894, N'65457', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (895, N'56343', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (896, N'35471', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (897, N'57231', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (898, N'16236', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (899, N'35121', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (900, N'45373', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (901, N'63123', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (902, N'77715', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (903, N'52335', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (904, N'54612', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (905, N'64713', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (906, N'43657', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (907, N'71561', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (908, N'26712', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (909, N'36125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (910, N'42136', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (911, N'44425', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (912, N'67637', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (913, N'77255', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (914, N'64517', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (915, N'17176', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (916, N'12244', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (917, N'57271', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (918, N'23712', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (919, N'57277', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (920, N'51522', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (921, N'77427', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (922, N'57126', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (923, N'43171', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (924, N'56213', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (925, N'25644', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (926, N'35633', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (927, N'32114', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (928, N'36237', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (929, N'15542', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (930, N'55253', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (931, N'27635', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (932, N'12776', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (933, N'43467', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (934, N'25753', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (935, N'43454', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (936, N'67341', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (937, N'23762', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (938, N'67121', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (939, N'37472', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (940, N'41225', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (941, N'62436', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (942, N'32243', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (943, N'51335', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (944, N'62726', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (945, N'73536', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (946, N'47647', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (947, N'24325', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (948, N'36257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (949, N'61573', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (950, N'42473', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (951, N'46655', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (952, N'35755', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (953, N'25226', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (954, N'44214', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (955, N'22233', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (956, N'35375', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (957, N'36617', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (958, N'15371', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (959, N'34373', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (960, N'46221', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (961, N'15232', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (962, N'43661', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (963, N'33375', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (964, N'55125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (965, N'16164', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (966, N'23736', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (967, N'35773', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (968, N'25727', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (969, N'64262', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (970, N'45453', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (971, N'16614', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (972, N'31561', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (973, N'57526', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (974, N'14626', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (975, N'15345', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (976, N'11756', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (977, N'32734', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (978, N'77147', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (979, N'67437', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (980, N'76553', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (981, N'67674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (982, N'47134', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (983, N'43417', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (984, N'24717', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (985, N'64652', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (986, N'35721', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (987, N'73157', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (988, N'57365', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (989, N'41745', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (990, N'41415', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (991, N'14215', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (992, N'75735', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (993, N'51257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (994, N'35137', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (995, N'46127', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (996, N'45265', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (997, N'33346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (998, N'55756', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (999, N'45313', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1000, N'13711', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1001, N'27313', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1002, N'74526', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1003, N'41726', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1004, N'34732', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1005, N'34616', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1006, N'35144', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1007, N'75125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1008, N'72346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1009, N'44213', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1010, N'24267', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1011, N'53712', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1012, N'45671', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1013, N'13565', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1014, N'51622', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1015, N'35772', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1016, N'45126', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1017, N'57724', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1018, N'33745', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1019, N'23173', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1020, N'63644', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1021, N'44216', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1022, N'16741', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1023, N'63556', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1024, N'23122', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1025, N'24716', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1026, N'33716', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1027, N'25641', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1028, N'72465', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1029, N'44456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1030, N'26635', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1031, N'25346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1032, N'24754', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1033, N'21266', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1034, N'27447', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1035, N'16427', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1036, N'17627', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1037, N'71133', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1038, N'74564', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1039, N'33637', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1040, N'64567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1041, N'54565', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1042, N'31415', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1043, N'51155', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1044, N'35314', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1045, N'56327', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1046, N'23764', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1047, N'16116', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1048, N'45751', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1049, N'76144', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1050, N'27257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1051, N'14224', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1052, N'11474', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1053, N'42444', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1054, N'36711', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1055, N'34275', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1056, N'23134', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1057, N'47217', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1058, N'41721', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1059, N'73774', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1060, N'56721', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1061, N'11567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1062, N'73471', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1063, N'72217', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1064, N'65617', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1065, N'32364', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1066, N'43426', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1067, N'52346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1068, N'33726', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1069, N'33577', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1070, N'44637', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1071, N'32453', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1072, N'32613', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1073, N'56562', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1074, N'44146', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1075, N'61651', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1076, N'25252', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1077, N'75742', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1078, N'33657', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1079, N'23577', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1080, N'26411', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1081, N'47557', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1082, N'77127', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1083, N'36134', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1084, N'73345', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1085, N'24233', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1086, N'27344', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1087, N'14777', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1088, N'73762', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1089, N'25167', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1090, N'21475', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1091, N'13466', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1092, N'47273', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1093, N'75553', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1094, N'75467', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1095, N'62325', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1096, N'73427', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1097, N'13177', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1098, N'64553', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1099, N'27312', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1100, N'24377', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1101, N'35743', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1102, N'21674', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1103, N'46257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1104, N'36366', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1105, N'33466', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1106, N'34157', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1107, N'35124', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1108, N'46227', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1109, N'51367', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1110, N'64267', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1111, N'47352', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1112, N'46537', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1113, N'13733', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1114, N'62512', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1115, N'66177', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1116, N'44751', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1117, N'37424', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1118, N'71727', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1119, N'56672', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1120, N'21514', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1121, N'33132', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1122, N'45726', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1123, N'44652', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1124, N'15634', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1125, N'56563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1126, N'24626', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1127, N'24123', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1128, N'34277', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1129, N'53124', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1130, N'75475', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1131, N'25245', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1132, N'65426', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1133, N'44775', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1134, N'53424', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1135, N'14774', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1136, N'53467', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1137, N'57426', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1138, N'56257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1139, N'11326', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1140, N'41344', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1141, N'34536', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1142, N'21677', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1143, N'15673', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1144, N'46475', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1145, N'16216', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1146, N'45626', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1147, N'67465', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1148, N'17114', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1149, N'57363', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1150, N'13345', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1151, N'55764', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1152, N'12727', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1153, N'32162', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1154, N'55612', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1155, N'34264', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1156, N'13277', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1157, N'73111', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1158, N'47227', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1159, N'27137', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1160, N'24462', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1161, N'66514', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1162, N'25127', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1163, N'31717', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1164, N'31514', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1165, N'14414', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1166, N'52245', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1167, N'13172', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1168, N'37654', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1169, N'37167', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1170, N'36651', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1171, N'42157', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1172, N'13457', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1173, N'47214', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1174, N'62456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1175, N'37263', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1176, N'23627', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1177, N'71342', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1178, N'55642', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1179, N'22422', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1180, N'56324', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1181, N'61477', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1182, N'23137', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1183, N'14657', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1184, N'73123', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1185, N'47257', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1186, N'47163', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1187, N'33465', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1188, N'25515', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1189, N'12362', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1190, N'42635', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1191, N'21756', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1192, N'26561', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1193, N'37153', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1194, N'73666', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1195, N'26565', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1196, N'12614', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1197, N'34773', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1198, N'34216', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1199, N'27567', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1200, N'31712', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1201, N'73676', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1202, N'11574', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1203, N'64375', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1204, N'14153', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1205, N'15216', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1206, N'51162', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1207, N'45546', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1208, N'73672', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1209, N'46255', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1210, N'23265', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1211, N'73634', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1212, N'12346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1213, N'44155', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1214, N'73746', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1215, N'32255', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1216, N'32534', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1217, N'52665', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1218, N'44714', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1219, N'67456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1220, N'54174', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1221, N'12223', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1222, N'31451', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1223, N'61471', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1224, N'41533', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1225, N'57236', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1226, N'62575', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1227, N'41316', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1228, N'73642', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1229, N'45721', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1230, N'41467', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1231, N'12461', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1232, N'43362', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1233, N'23223', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1234, N'63547', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1235, N'55671', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1236, N'26535', 2)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1237, N'14245', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1238, N'55624', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1239, N'62413', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1240, N'45145', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1241, N'57167', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1242, N'67435', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1243, N'22232', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1244, N'11375', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1245, N'74357', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1246, N'67125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1247, N'35577', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1248, N'16235', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1249, N'31756', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1250, N'64373', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1251, N'52324', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1252, N'36463', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1253, N'46246', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1254, N'14667', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1255, N'57377', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1256, N'66347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1257, N'61376', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1258, N'76716', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1259, N'41247', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1260, N'21452', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1261, N'44513', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1262, N'17346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1263, N'21616', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1264, N'76213', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1265, N'44141', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1266, N'52313', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1267, N'75545', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1268, N'75727', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1269, N'26464', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1270, N'13254', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1271, N'24563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1272, N'16431', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1273, N'31343', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1274, N'14123', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1275, N'61263', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1276, N'34161', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1277, N'52512', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1278, N'12544', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1279, N'67145', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1280, N'44563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1281, N'62517', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1282, N'66525', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1283, N'71667', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1284, N'41741', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1285, N'47563', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1286, N'45346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1287, N'67626', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1288, N'77473', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1289, N'31143', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1290, N'23656', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1291, N'24125', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1292, N'73636', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1293, N'56216', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1294, N'13151', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1295, N'22347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1296, N'52566', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1297, N'33776', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1298, N'22244', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1299, N'35336', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1300, N'64167', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1301, N'42377', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1302, N'22455', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1303, N'61436', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1304, N'75536', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1305, N'37261', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1306, N'12446', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1307, N'51534', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1308, N'42453', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1309, N'22752', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1310, N'62646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1311, N'27761', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1312, N'62452', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1313, N'34346', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1314, N'35476', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1315, N'22345', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1316, N'46714', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1317, N'72631', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1318, N'74766', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1319, N'67747', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1320, N'16737', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1321, N'35456', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1322, N'15566', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1323, N'17725', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1324, N'63656', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1325, N'41156', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1326, N'54534', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1327, N'24522', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1328, N'74611', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1329, N'32166', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1330, N'11347', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1331, N'73737', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1332, N'76333', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1333, N'14247', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1334, N'51757', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1335, N'34673', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1336, N'41515', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1337, N'34355', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1338, N'45646', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1339, N'56564', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1340, N'13574', 1)
+GO
+INSERT [dbo].[EstatisticasColunas] ([EstatisticasColunaId], [Coluna], [Quantidade]) VALUES (1341, N'53345', 1)
+GO
+SET IDENTITY_INSERT [dbo].[EstatisticasColunas] OFF
+GO
+SET IDENTITY_INSERT [dbo].[EstatisticasLinhas] ON 
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (1, N'35677', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (2, N'12346', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (3, N'12566', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (4, N'45667', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (5, N'15557', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (6, N'56777', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (7, N'13677', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (8, N'36777', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (9, N'33667', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (10, N'45677', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (11, N'12347', 14)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (12, N'12367', 13)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (13, N'13347', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (14, N'14447', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (15, N'23346', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (16, N'33455', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (17, N'25566', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (18, N'12356', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (19, N'33457', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (20, N'12456', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (21, N'13456', 16)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (22, N'55677', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (23, N'22457', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (24, N'12577', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (25, N'23677', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (26, N'56677', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (27, N'13467', 16)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (28, N'34455', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (29, N'11345', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (30, N'23567', 17)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (31, N'11267', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (32, N'14557', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (33, N'23455', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (34, N'33567', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (35, N'34566', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (36, N'11457', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (37, N'11236', 10)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (38, N'13466', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (39, N'23456', 10)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (40, N'34457', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (41, N'23345', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (42, N'35667', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (43, N'34557', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (44, N'23457', 13)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (45, N'33345', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (46, N'13667', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (47, N'14457', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (48, N'12557', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (49, N'11257', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (50, N'13346', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (51, N'13445', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (52, N'13367', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (53, N'44455', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (54, N'14567', 17)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (55, N'12335', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (56, N'23577', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (57, N'22336', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (58, N'11577', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (59, N'44567', 10)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (60, N'12567', 13)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (61, N'23477', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (62, N'12377', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (63, N'22345', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (64, N'23356', 11)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (65, N'34467', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (66, N'22356', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (67, N'13345', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (68, N'33556', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (69, N'34577', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (70, N'11234', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (71, N'11246', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (72, N'12246', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (73, N'35567', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (74, N'24666', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (75, N'23556', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (76, N'22667', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (77, N'34567', 16)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (78, N'34447', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (79, N'22357', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (80, N'12447', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (81, N'12345', 12)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (82, N'12234', 10)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (83, N'22347', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (84, N'33456', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (85, N'12236', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (86, N'12677', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (87, N'22335', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (88, N'11347', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (89, N'33566', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (90, N'11135', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (91, N'11245', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (92, N'11356', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (93, N'11446', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (94, N'45567', 10)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (95, N'23546', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (96, N'24566', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (97, N'13457', 12)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (98, N'12333', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (99, N'23337', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (100, N'22257', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (101, N'16777', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (102, N'11444', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (103, N'14467', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (104, N'11337', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (105, N'44557', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (106, N'44556', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (107, N'14556', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (108, N'11346', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (109, N'24466', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (110, N'22677', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (111, N'14577', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (112, N'24577', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (113, N'33467', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (114, N'12467', 15)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (115, N'34677', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (116, N'15567', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (117, N'24677', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (118, N'11256', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (119, N'23445', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (120, N'12247', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (121, N'22346', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (122, N'23357', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (123, N'13557', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (124, N'12355', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (125, N'12457', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (126, N'11247', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (127, N'23447', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (128, N'25577', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (129, N'14677', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (130, N'23367', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (131, N'24667', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (132, N'14667', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (133, N'35557', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (134, N'11366', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (135, N'13567', 15)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (136, N'14666', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (137, N'11566', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (138, N'45566', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (139, N'11227', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (140, N'11333', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (141, N'11467', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (142, N'34556', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (143, N'44667', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (144, N'22247', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (145, N'13577', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (146, N'36677', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (147, N'22456', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (148, N'11557', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (149, N'34446', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (150, N'11477', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (151, N'11126', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (152, N'24477', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (153, N'23347', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (154, N'11677', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (155, N'13344', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (156, N'24446', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (157, N'11225', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (158, N'44566', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (159, N'33445', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (160, N'12455', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (161, N'23467', 12)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (162, N'12344', 9)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (163, N'11455', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (164, N'13447', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (165, N'11167', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (166, N'22567', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (167, N'12235', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (168, N'11357', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (169, N'22366', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (170, N'23667', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (171, N'11377', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (172, N'11277', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (173, N'13356', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (174, N'22455', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (175, N'23557', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (176, N'25677', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (177, N'35566', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (178, N'22446', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (179, N'12244', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (180, N'12466', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (181, N'14446', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (182, N'23466', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (183, N'11445', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (184, N'11367', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (185, N'24567', 13)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (186, N'22377', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (187, N'22777', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (188, N'24467', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (189, N'22367', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (190, N'13666', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (191, N'12255', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (192, N'11224', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (193, N'25667', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (194, N'22557', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (195, N'22445', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (196, N'13366', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (197, N'12357', 13)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (198, N'12336', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (199, N'33356', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (200, N'24456', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (201, N'33677', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (202, N'23336', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (203, N'14456', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (204, N'15667', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (205, N'33357', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (206, N'13446', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (207, N'23344', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (208, N'26677', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (209, N'46777', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (210, N'25557', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (211, N'11235', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (212, N'22255', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (213, N'25567', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (214, N'12257', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (215, N'24557', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (216, N'34456', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (217, N'13555', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (218, N'12245', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (219, N'11124', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (220, N'45577', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (221, N'11134', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (222, N'22234', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (223, N'12667', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (224, N'24556', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (225, N'15666', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (226, N'13556', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (227, N'12237', 8)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (228, N'11145', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (229, N'12223', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (230, N'34667', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (231, N'23566', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (232, N'25556', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (233, N'13455', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (234, N'16677', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (235, N'11447', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (236, N'35577', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (237, N'12445', 7)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (238, N'11117', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (239, N'11237', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (240, N'12233', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (241, N'12227', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (242, N'11666', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (243, N'23777', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (244, N'12277', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (245, N'36666', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (246, N'12556', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (247, N'24555', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (248, N'12555', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (249, N'13357', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (250, N'25777', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (251, N'12477', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (252, N'46677', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (253, N'14566', 6)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (254, N'33447', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (255, N'11334', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (256, N'11456', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (257, N'11146', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (258, N'12267', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (259, N'33555', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (260, N'11266', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (261, N'13566', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (262, N'14455', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (263, N'11127', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (264, N'12334', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (265, N'12337', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (266, N'11226', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (267, N'66677', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (268, N'11166', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (269, N'22467', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (270, N'11667', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (271, N'24457', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (272, N'35777', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (273, N'23446', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (274, N'15777', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (275, N'22344', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (276, N'11136', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (277, N'23335', 5)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (278, N'11244', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (279, N'22237', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (280, N'22556', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (281, N'33577', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (282, N'12226', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (283, N'14466', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (284, N'44445', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (285, N'55566', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (286, N'34466', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (287, N'11355', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (288, N'44457', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (289, N'11567', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (290, N'55567', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (291, N'56667', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (292, N'22577', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (293, N'33446', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (294, N'55667', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (295, N'44677', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (296, N'13477', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (297, N'11336', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (298, N'34477', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (299, N'22466', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (300, N'22246', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (301, N'12266', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (302, N'11233', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (303, N'24777', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (304, N'11147', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (305, N'33557', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (306, N'33366', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (307, N'34666', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (308, N'22566', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (309, N'22477', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (310, N'23377', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (311, N'22447', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (312, N'33477', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (313, N'45666', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (314, N'44467', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (315, N'13377', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (316, N'12666', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (317, N'24455', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (318, N'15577', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (319, N'57777', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (320, N'12446', 4)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (321, N'13334', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (322, N'24447', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (323, N'12366', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (324, N'34444', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (325, N'11255', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (326, N'33367', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (327, N'11156', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (328, N'23355', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (329, N'14555', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (330, N'11125', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (331, N'12256', 3)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (332, N'11222', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (333, N'13355', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (334, N'22444', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (335, N'36667', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (336, N'35666', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (337, N'23444', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (338, N'11223', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (339, N'11111', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (340, N'35556', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (341, N'25666', 2)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (342, N'45556', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (343, N'33666', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (344, N'15566', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (345, N'13337', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (346, N'12224', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (347, N'22236', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (348, N'33466', 1)
+GO
+INSERT [dbo].[EstatisticasLinhas] ([EstatisticasLinhaId], [Linha], [Quantidade]) VALUES (349, N'15677', 1)
+GO
+SET IDENTITY_INSERT [dbo].[EstatisticasLinhas] OFF
+GO
+INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasColunas', CAST(N'2024-09-14T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasLinhas', CAST(N'2024-09-14T00:00:00.000' AS DateTime))
+GO
 INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasNumerosDaSorte', CAST(N'2024-09-14T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[EstatisticasNumerosUltimaData] ([Tabela], [Data]) VALUES (N'EstatisticasNumerosDoSorteio', CAST(N'2024-09-14T00:00:00.000' AS DateTime))

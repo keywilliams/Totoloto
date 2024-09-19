@@ -9,6 +9,8 @@ namespace TotolotoRepository.Models
     public enum TabelaEnum
     {
         EstatisticasNumerosDaSorte,
-        EstatisticasNumerosDoSorteio
+        EstatisticasNumerosDoSorteio,
+        EstatisticasLinhas,
+        EstatisticasColunas
     }
 }

@@ -15,6 +15,10 @@ public partial class TotolotoContext : DbContext
 
     public virtual DbSet<Coluna> Colunas { get; set; }
 
+    public virtual DbSet<EstatisticasColuna> EstatisticasColunas { get; set; }
+
+    public virtual DbSet<EstatisticasLinha> EstatisticasLinhas { get; set; }
+
     public virtual DbSet<EstatisticasNumerosDaSorte> EstatisticasNumerosDaSortes { get; set; }
 
     public virtual DbSet<EstatisticasNumerosDoSorteio> EstatisticasNumerosDoSorteios { get; set; }
@@ -45,6 +49,20 @@ public partial class TotolotoContext : DbContext
                 .HasForeignKey<Coluna>(d => d.Numero)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Colunas_Colunas");
+        });
+
+        modelBuilder.Entity<EstatisticasColuna>(entity =>
+        {
+            entity.Property(e => e.Coluna)
+                .IsRequired()
+                .HasMaxLength(7);
+        });
+
+        modelBuilder.Entity<EstatisticasLinha>(entity =>
+        {
+            entity.Property(e => e.Linha)
+                .IsRequired()
+                .HasMaxLength(7);
         });
 
         modelBuilder.Entity<EstatisticasNumerosDaSorte>(entity =>

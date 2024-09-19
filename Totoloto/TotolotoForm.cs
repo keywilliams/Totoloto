@@ -6,6 +6,7 @@ using TotolotoRepository.Models;
 using System.Xml.Linq;
 using Totoloto.Properties;
 using System.Drawing;
+using Microsoft.EntityFrameworkCore;
 
 namespace Totoloto
 {
@@ -39,6 +40,8 @@ namespace Totoloto
 
                 if (!totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasNumerosDoSorteio)) ||
                     !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasNumerosDaSorte)) ||
+                    !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasLinhas)) ||
+                    !totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasColunas)) ||
                      totolotoContext.EstatisticasNumerosUltimaData.Any(x => x.Data < lastGame.Data))
                     enableUpdate = true;
             }
@@ -74,6 +77,96 @@ namespace Totoloto
         {
             UpdateStatisticLuckyNumbers();
             UpdateStatisticDrawNumbers();
+            UpdateStatisticLines();
+            UpdateStatisticColumns();
+        }
+
+        private void UpdateStatisticLines()
+        {
+            var statisticLuckyNumbers = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasLinhas));
+
+            if (statisticLuckyNumbers == null)
+            {
+                var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.EstatisticasLinhas), Data = new DateTime(1900, 1, 1) };
+                totolotoContext.EstatisticasNumerosUltimaData.Add(statistic);
+                totolotoContext.SaveChanges();
+                statisticLuckyNumbers = statistic;
+            }
+
+            var games = totolotoContext.Jogos.Include(x => x.Numero1Navigation)
+                                             .Include(x => x.Numero2Navigation)
+                                             .Include(x => x.Numero3Navigation)
+                                             .Include(x => x.Numero4Navigation)
+                                             .Include(x => x.Numero5Navigation)
+                                             .Where(j => j.Data > statisticLuckyNumbers.Data).OrderBy(x => x.Data).ToList();
+
+            foreach (var game in games)
+            {
+                string linha = $"{game.Numero1Navigation.Linha}{game.Numero2Navigation.Linha}{game.Numero3Navigation.Linha}{game.Numero4Navigation.Linha}{game.Numero5Navigation.Linha}";
+
+                var estatisticasLinhas = totolotoContext.EstatisticasLinhas.FirstOrDefault(x => x.Linha == linha);
+
+                if (estatisticasLinhas == null)
+                {
+                    estatisticasLinhas = new EstatisticasLinha { Linha = linha, Quantidade = 1 };
+                    totolotoContext.EstatisticasLinhas.Add(estatisticasLinhas);
+                    totolotoContext.SaveChanges();
+                }
+                else
+                {
+                    estatisticasLinhas.Quantidade += 1;
+                    totolotoContext.EstatisticasLinhas.Update(estatisticasLinhas);
+                    totolotoContext.SaveChanges();
+                }
+
+                statisticLuckyNumbers.Data = game.Data;
+                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticLuckyNumbers);
+                totolotoContext.SaveChanges();
+            }
+        }
+
+        private void UpdateStatisticColumns()
+        {
+            var statisticLuckyNumbers = totolotoContext.EstatisticasNumerosUltimaData.FirstOrDefault(x => x.Tabela == Enum.GetName(TabelaEnum.EstatisticasColunas));
+
+            if (statisticLuckyNumbers == null)
+            {
+                var statistic = new EstatisticasNumerosUltimaDatum { Tabela = Enum.GetName(TabelaEnum.EstatisticasColunas), Data = new DateTime(1900, 1, 1) };
+                totolotoContext.EstatisticasNumerosUltimaData.Add(statistic);
+                totolotoContext.SaveChanges();
+                statisticLuckyNumbers = statistic;
+            }
+
+            var games = totolotoContext.Jogos.Include(x => x.Numero1Navigation)
+                                             .Include(x => x.Numero2Navigation)
+                                             .Include(x => x.Numero3Navigation)
+                                             .Include(x => x.Numero4Navigation)
+                                             .Include(x => x.Numero5Navigation)
+                                             .Where(j => j.Data > statisticLuckyNumbers.Data).OrderBy(x => x.Data).ToList();
+
+            foreach (var game in games)
+            {
+                string coluna = $"{game.Numero1Navigation.Coluna}{game.Numero2Navigation.Coluna}{game.Numero3Navigation.Coluna}{game.Numero4Navigation.Coluna}{game.Numero5Navigation.Coluna}";
+
+                var estatisticasColunas = totolotoContext.EstatisticasColunas.FirstOrDefault(x => x.Coluna == coluna);
+
+                if (estatisticasColunas == null)
+                {
+                    estatisticasColunas = new EstatisticasColuna { Coluna = coluna, Quantidade = 1 };
+                    totolotoContext.EstatisticasColunas.Add(estatisticasColunas);
+                    totolotoContext.SaveChanges();
+                }
+                else
+                {
+                    estatisticasColunas.Quantidade += 1;
+                    totolotoContext.EstatisticasColunas.Update(estatisticasColunas);
+                    totolotoContext.SaveChanges();
+                }
+
+                statisticLuckyNumbers.Data = game.Data;
+                totolotoContext.EstatisticasNumerosUltimaData.Update(statisticLuckyNumbers);
+                totolotoContext.SaveChanges();
+            }
         }
 
         private void UpdateStatisticDrawNumbers()
